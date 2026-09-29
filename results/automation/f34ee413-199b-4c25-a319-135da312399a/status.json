@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "f34ee413-199b-4c25-a319-135da312399a",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-15T22:24:34.944Z",
+  "heartbeatAt": "2026-09-15T22:24:35.277Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 6,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f34ee413-199b-4c25-a319-135da312399a\\report.md",
+  "pid": 40764,
+  "error": "Injected action failure",
+  "finishedAt": "2026-09-15T22:24:35.273Z",
+  "cleanup": "complete"
+}

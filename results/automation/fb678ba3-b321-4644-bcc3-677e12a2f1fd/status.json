@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:29.726Z",
+  "heartbeatAt": "2026-09-17T04:17:30.122Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\fb678ba3-b321-4644-bcc3-677e12a2f1fd\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 40476,
+  "currentStep": 1,
+  "error": "Ollama returned HTTP 503.",
+  "errorCode": "MODEL_HTTP",
+  "finishedAt": "2026-09-17T04:17:30.116Z",
+  "cleanup": "complete"
+}

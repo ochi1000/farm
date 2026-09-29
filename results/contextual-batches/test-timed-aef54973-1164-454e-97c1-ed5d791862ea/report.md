@@ -1,0 +1,39 @@
+# Contextual batch
+
+State: **completed_with_failures**
+
+Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.
+
+Aggregate:
+
+```json
+{
+  "qualitySessions": 1,
+  "fullyCompletedSessions": 1,
+  "completedCycles": 1,
+  "requestedCycles": 1,
+  "validSkips": 7,
+  "invalidSkips": 0,
+  "rejectedDrafts": 0,
+  "failureCategories": {},
+  "writingCategories": [],
+  "withinSessionDuplicatePairs": 0,
+  "crossSessionDuplicatePairs": 0,
+  "responseLatency": {
+    "count": 0,
+    "medianMs": null,
+    "p95Ms": null,
+    "maxMs": null
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "liveSubmissions": 0
+}
+```
+
+- empty (quality): completed; 1/1 cycles; 7 skips; no failure — [session](../../automation/b353dd36-76c1-4484-b0cf-508c23f6f1e3/report.md)

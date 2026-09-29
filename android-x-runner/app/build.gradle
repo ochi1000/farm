@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.ocorp.xrunner"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.ocorp.xrunner"
+        minSdk 26
+        targetSdk 36
+        versionCode 9
+        versionName "0.9.0"
+    }
+}

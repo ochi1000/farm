@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "test-671f378f-9d48-4409-ba48-8162f00d0250",
+  "pid": 30392,
+  "state": "passed",
+  "startedAt": "2026-09-17T05:30:55.447Z",
+  "heartbeatAt": "2026-09-17T05:31:00.746Z",
+  "config": {
+    "smoke": false,
+    "fixtures": [
+      "garden",
+      "excluded",
+      "empty"
+    ],
+    "cycles": 1,
+    "sessionDurationMs": 20000,
+    "brain": {
+      "baseUrl": "http://127.0.0.1:57370",
+      "model": "fixture-local",
+      "timeoutMs": 2000
+    }
+  },
+  "sessions": [
+    {
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "fixtureId": "garden",
+      "kind": "cancellation",
+      "state": "stopped",
+      "finishReason": "user_stop",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f82c1226-e02d-407e-bcff-7058c131c330\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f82c1226-e02d-407e-bcff-7058c131c330\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 1,
+      "processed": 2,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 1,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 648,
+      "stopLatencyMs": 38,
+      "stopObserved": true,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "3203ce9d-55a0-47b0-810d-2853379109ce",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3203ce9d-55a0-47b0-810d-2853379109ce\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3203ce9d-55a0-47b0-810d-2853379109ce\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "Could a disconnected probe leave the pump running between samples?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "Disconnect the probe with the pump unplugged and observe the control output."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "The manual switch provides a separate way to water while automatic readings are being checked."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 6,
+        "responses": 6,
+        "latencyMs": 962,
+        "inputTokens": 120,
+        "outputTokens": 60
+      },
+      "responseLatenciesMs": [
+        164,
+        157,
+        168,
+        154,
+        164,
+        155
+      ],
+      "elapsedMs": 2136,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "3a0bd202-3bef-4f23-b1f9-18856e6e5fb2",
+      "fixtureId": "excluded",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3a0bd202-3bef-4f23-b1f9-18856e6e5fb2\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3a0bd202-3bef-4f23-b1f9-18856e6e5fb2\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        }
+      ],
+      "validSkipCount": 7,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 874,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "39634d9a-cb33-47e1-a90f-322b8670bac0",
+      "fixtureId": "empty",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\39634d9a-cb33-47e1-a90f-322b8670bac0\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\39634d9a-cb33-47e1-a90f-322b8670bac0\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks."
+        }
+      ],
+      "validSkipCount": 7,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 867,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 3,
+    "fullyCompletedSessions": 3,
+    "completedCycles": 3,
+    "requestedCycles": 3,
+    "validSkips": 14,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [
+      "comment_post",
+      "reply_to_comment",
+      "create_post"
+    ],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 6,
+      "medianMs": 157,
+      "p95Ms": 168,
+      "maxMs": 168
+    },
+    "modelMetrics": {
+      "requests": 6,
+      "responses": 6,
+      "latencyMs": 962,
+      "inputTokens": 120,
+      "outputTokens": 60
+    },
+    "liveSubmissions": 0
+  },
+  "finishedAt": "2026-09-17T05:31:00.746Z"
+}

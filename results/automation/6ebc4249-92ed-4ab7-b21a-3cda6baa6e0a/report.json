@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:45:44.184Z",
+  "heartbeatAt": "2026-09-17T00:45:46.728Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "promptVersion": "contextual-v2"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 2147,
+    "inputTokens": 572,
+    "outputTokens": 59
+  },
+  "pid": 14080,
+  "currentStep": 1,
+  "error": "Decision must cite an exact detail from its target context.",
+  "errorCode": "UNGROUNDED",
+  "finishedAt": "2026-09-17T00:45:46.723Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:45:44.237Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:45:44.450Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:45:44.452Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:45:44.517Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 5,
+      "timestamp": "2026-09-17T00:45:44.569Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 6,
+      "timestamp": "2026-09-17T00:45:46.715Z",
+      "type": "model_response",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan",
+      "latencyMs": 2147,
+      "inputTokens": 572,
+      "outputTokens": 59
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 7,
+      "timestamp": "2026-09-17T00:45:46.722Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Decision must cite an exact detail from its target context."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 8,
+      "timestamp": "2026-09-17T00:45:46.727Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+      "sequence": 9,
+      "timestamp": "2026-09-17T00:45:46.728Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

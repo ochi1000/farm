@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:15:53.029Z",
+  "heartbeatAt": "2026-09-17T04:15:53.418Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 7,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v4"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 19020,
+  "currentStep": 1,
+  "error": "Cloud-backed model aliases are not permitted.",
+  "errorCode": "LOCAL_ONLY",
+  "finishedAt": "2026-09-17T04:15:53.413Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:15:53.078Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:15:53.288Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:15:53.290Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:15:53.355Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:15:53.411Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Cloud-backed model aliases are not permitted."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:15:53.417Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "a3dc3f8a-7651-4ddc-bdb3-d76e5810f8fd",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:15:53.418Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

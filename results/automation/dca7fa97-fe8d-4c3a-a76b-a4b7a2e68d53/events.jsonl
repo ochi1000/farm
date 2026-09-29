@@ -1,0 +1,6 @@
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":1,"timestamp":"2026-09-17T05:00:11.837Z","type":"starting","stepId":0}
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":2,"timestamp":"2026-09-17T05:00:12.049Z","type":"ready","stepId":0}
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":3,"timestamp":"2026-09-17T05:00:12.050Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":4,"timestamp":"2026-09-17T05:00:12.370Z","type":"error","stepId":1,"message":"Action deadline exceeded"}
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":5,"timestamp":"2026-09-17T05:00:12.376Z","type":"cleanup","stepId":1}
+{"schemaVersion":1,"runId":"dca7fa97-fe8d-4c3a-a76b-a4b7a2e68d53","sequence":6,"timestamp":"2026-09-17T05:00:12.377Z","type":"finished","stepId":1,"state":"failed"}

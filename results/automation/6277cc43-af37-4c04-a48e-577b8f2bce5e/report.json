@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:30.166Z",
+  "heartbeatAt": "2026-09-17T04:17:30.561Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6277cc43-af37-4c04-a48e-577b8f2bce5e\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 1996,
+  "currentStep": 1,
+  "error": "Ollama returned malformed JSON.",
+  "errorCode": "INVALID_RESPONSE",
+  "finishedAt": "2026-09-17T04:17:30.555Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:17:30.216Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:17:30.426Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:17:30.428Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:17:30.495Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:17:30.543Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:17:30.554Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Ollama returned malformed JSON."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:17:30.559Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:17:30.560Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

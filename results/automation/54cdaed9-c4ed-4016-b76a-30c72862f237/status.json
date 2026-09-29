@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "54cdaed9-c4ed-4016-b76a-30c72862f237",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T23:06:20.397Z",
+  "heartbeatAt": "2026-09-17T23:06:32.543Z",
+  "completed": 4,
+  "total": 14,
+  "sequence": 49,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\54cdaed9-c4ed-4016-b76a-30c72862f237\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "garden",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 4,
+    "responses": 4,
+    "latencyMs": 11328,
+    "inputTokens": 2484,
+    "outputTokens": 417
+  },
+  "pid": 37200,
+  "currentStep": 5,
+  "error": "Generated draft failed the contextual quality review.",
+  "errorCode": "QUALITY_REJECTED",
+  "finishedAt": "2026-09-17T23:06:32.528Z",
+  "cleanup": "complete"
+}

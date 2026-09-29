@@ -1,0 +1,15 @@
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":1,"timestamp":"2026-09-15T22:27:09.852Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":2,"timestamp":"2026-09-15T22:27:10.059Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":3,"timestamp":"2026-09-15T22:27:10.060Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":4,"timestamp":"2026-09-15T22:27:10.123Z","type":"preparing","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":5,"timestamp":"2026-09-15T22:27:10.885Z","type":"action_verified","stepId":2,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":6,"timestamp":"2026-09-15T22:27:10.887Z","type":"waiting","stepId":2}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":7,"timestamp":"2026-09-15T22:27:12.389Z","type":"action_started","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":8,"timestamp":"2026-09-15T22:27:12.447Z","type":"preparing","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":9,"timestamp":"2026-09-15T22:27:13.201Z","type":"submission_started","stepId":2,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":10,"timestamp":"2026-09-15T22:27:13.207Z","type":"action_verified","stepId":3,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":11,"timestamp":"2026-09-15T22:27:13.209Z","type":"waiting","stepId":3}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":12,"timestamp":"2026-09-15T22:27:14.710Z","type":"action_started","stepId":3,"action":"comment_post"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":13,"timestamp":"2026-09-15T22:27:14.775Z","type":"error","stepId":3,"message":"Injected action failure"}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":14,"timestamp":"2026-09-15T22:27:14.779Z","type":"cleanup","stepId":3}
+{"schemaVersion":1,"runId":"b20d4aad-e441-47ab-8318-536c6f8567d2","sequence":15,"timestamp":"2026-09-15T22:27:14.780Z","type":"finished","stepId":3,"state":"failed"}

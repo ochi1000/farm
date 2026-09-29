@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "578d5b7d-0b32-4d33-a39b-c762ef3a9678",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:47:32.274Z",
+  "heartbeatAt": "2026-09-17T00:47:34.357Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\578d5b7d-0b32-4d33-a39b-c762ef3a9678\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "promptVersion": "contextual-v3"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 1666,
+    "inputTokens": 617,
+    "outputTokens": 40
+  },
+  "pid": 31924,
+  "currentStep": 1,
+  "error": "Action worker exited without verification",
+  "errorCode": "ACTION_FAILED",
+  "finishedAt": "2026-09-17T00:47:34.350Z",
+  "cleanup": "complete"
+}

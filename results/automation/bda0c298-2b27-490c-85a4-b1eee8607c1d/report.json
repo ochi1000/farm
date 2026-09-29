@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:26:15.286Z",
+  "heartbeatAt": "2026-09-17T04:26:16.047Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 22,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\bda0c298-2b27-490c-85a4-b1eee8607c1d\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v11"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 40824,
+  "currentStep": 3,
+  "error": "Local model request timed out.",
+  "errorCode": "MODEL_TIMEOUT",
+  "finishedAt": "2026-09-17T04:26:16.041Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:26:15.336Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:26:15.548Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:26:15.550Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:26:15.617Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:26:15.643Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:26:15.645Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:26:15.653Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:26:15.654Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 9,
+      "timestamp": "2026-09-17T04:26:15.655Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 10,
+      "timestamp": "2026-09-17T04:26:15.716Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 11,
+      "timestamp": "2026-09-17T04:26:15.738Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 12,
+      "timestamp": "2026-09-17T04:26:15.739Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 13,
+      "timestamp": "2026-09-17T04:26:15.741Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 14,
+      "timestamp": "2026-09-17T04:26:15.747Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 15,
+      "timestamp": "2026-09-17T04:26:15.748Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 16,
+      "timestamp": "2026-09-17T04:26:15.749Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 17,
+      "timestamp": "2026-09-17T04:26:15.807Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 18,
+      "timestamp": "2026-09-17T04:26:15.832Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 19,
+      "timestamp": "2026-09-17T04:26:15.871Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 20,
+      "timestamp": "2026-09-17T04:26:16.040Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Local model request timed out."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 21,
+      "timestamp": "2026-09-17T04:26:16.045Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "bda0c298-2b27-490c-85a4-b1eee8607c1d",
+      "sequence": 22,
+      "timestamp": "2026-09-17T04:26:16.046Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

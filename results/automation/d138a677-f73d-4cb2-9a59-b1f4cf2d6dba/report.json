@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "d138a677-f73d-4cb2-9a59-b1f4cf2d6dba",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-15T22:24:35.303Z",
+  "heartbeatAt": "2026-09-15T22:24:35.884Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 6,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\d138a677-f73d-4cb2-9a59-b1f4cf2d6dba\\report.md",
+  "pid": 15276,
+  "error": "Action deadline exceeded",
+  "finishedAt": "2026-09-15T22:24:35.882Z",
+  "cleanup": "complete"
+}

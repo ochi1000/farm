@@ -1,0 +1,4 @@
+{"schemaVersion":1,"runId":"8d47264b-90ea-4da5-9cc4-81c3e4b675cb","sequence":1,"timestamp":"2026-09-17T05:00:09.177Z","type":"starting","stepId":0}
+{"schemaVersion":1,"runId":"8d47264b-90ea-4da5-9cc4-81c3e4b675cb","sequence":2,"timestamp":"2026-09-17T05:00:09.180Z","type":"stop_requested","stepId":0}
+{"schemaVersion":1,"runId":"8d47264b-90ea-4da5-9cc4-81c3e4b675cb","sequence":3,"timestamp":"2026-09-17T05:00:09.184Z","type":"cleanup","stepId":0}
+{"schemaVersion":1,"runId":"8d47264b-90ea-4da5-9cc4-81c3e4b675cb","sequence":4,"timestamp":"2026-09-17T05:00:09.186Z","type":"finished","stepId":0,"state":"stopped"}

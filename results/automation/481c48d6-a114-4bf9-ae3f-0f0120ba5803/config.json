@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "mode": "simulation",
+  "cycles": 1,
+  "stepMs": 50,
+  "waitMs": 0,
+  "timeoutMs": 130000,
+  "durationMs": 300000,
+  "fault": "before_submit",
+  "faultStep": 2,
+  "persona": {
+    "schemaVersion": 1,
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast",
+    "description": "A fictional simulation persona: curious, practical, evidence-minded, and interested in useful projects.",
+    "interests": {
+      "automation": 10,
+      "local_ai": 9,
+      "android": 8,
+      "diy": 7,
+      "science": 6
+    },
+    "avoidTopics": [
+      "political_arguments",
+      "gambling",
+      "personal_attacks",
+      "get_rich_quick"
+    ],
+    "minimumInterest": {
+      "like_post": 6,
+      "comment_post": 7,
+      "reply_to_comment": 7
+    },
+    "voice": "Friendly, concise, constructive. Ask practical questions; do not invent personal experience or expertise.",
+    "commentTemplate": "What was the most useful lesson from your {topic} project?",
+    "replyTemplate": "For {topic}, a small repeatable test sounds like a useful next step.",
+    "postTemplate": "Simulation note: exploring how small {topic} projects can make everyday tasks easier."
+  },
+  "fixtureId": "default",
+  "fixtureVersion": 1,
+  "initialFixture": {
+    "posts": [
+      {
+        "id": "post-1",
+        "topic": "automation",
+        "topics": [
+          "automation",
+          "diy"
+        ],
+        "text": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manual switch is available, but disconnected-sensor detection is not implemented.",
+        "liked": false
+      },
+      {
+        "id": "post-2",
+        "topic": "local_ai",
+        "topics": [
+          "local_ai"
+        ],
+        "text": "A local model sorts notes without uploading them. The prototype labels notes as projects, reminders, or reference material. It shows a confidence score and lets the user correct labels. A comparison against manually labeled examples is planned.",
+        "liked": false
+      },
+      {
+        "id": "post-3",
+        "topic": "cooking",
+        "topics": [
+          "cooking"
+        ],
+        "text": "Trying a new bread recipe.",
+        "liked": false
+      },
+      {
+        "id": "post-4",
+        "topic": "automation",
+        "topics": [
+          "automation",
+          "get_rich_quick"
+        ],
+        "text": "An exaggerated get-rich automation pitch.",
+        "liked": false
+      }
+    ],
+    "comments": [
+      {
+        "id": "comment-1",
+        "parent": "post-1",
+        "topics": [
+          "automation"
+        ],
+        "text": "How could we test this reliably?"
+      },
+      {
+        "id": "comment-2",
+        "parent": "post-1",
+        "topics": [
+          "personal_attacks"
+        ],
+        "text": "An argumentative fixture comment."
+      },
+      {
+        "id": "comment-3",
+        "parent": "post-2",
+        "topics": [
+          "local_ai"
+        ],
+        "text": "Could a small test set help compare models?"
+      }
+    ],
+    "timeline": [],
+    "viewed": 0,
+    "seen": [],
+    "post": null
+  },
+  "brainMode": "deterministic",
+  "brain": null
+}

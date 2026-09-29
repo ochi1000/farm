@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "d3736eef-f172-45b9-af09-64f8c2bac080",
+  "mode": "simulation",
+  "state": "interrupted",
+  "phase": "view_post",
+  "startedAt": "2026-09-17T00:23:46.084Z",
+  "heartbeatAt": "2026-09-17T00:23:46.349Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 4,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\d3736eef-f172-45b9-af09-64f8c2bac080\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "pid": 8384,
+  "finishedAt": "2026-09-17T00:24:01.873Z",
+  "error": "Supervisor exited unexpectedly; no automatic replay.",
+  "cleanup": "unconfirmed"
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:30.605Z",
+  "heartbeatAt": "2026-09-17T04:17:31.000Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 10,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\c9b6bf0c-ff89-472b-81ba-9239e1c46e04\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 4,
+    "inputTokens": 20,
+    "outputTokens": 10
+  },
+  "pid": 22904,
+  "currentStep": 1,
+  "error": "Model chose an ineligible or unknown target.",
+  "errorCode": "INVALID_TARGET",
+  "finishedAt": "2026-09-17T04:17:30.995Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:17:30.654Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:17:30.862Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:17:30.864Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:17:30.925Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:17:30.980Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:17:30.984Z",
+      "type": "model_response",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan",
+      "latencyMs": 4,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:17:30.986Z",
+      "type": "plan_proposed",
+      "stepId": 1,
+      "action": "view_post",
+      "proposal": {
+        "decision": "engage",
+        "targetId": "unknown",
+        "text": "",
+        "reason": "Practical automation matches the persona.",
+        "evidence": "A simple sensor automates watering a small garden."
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:17:30.994Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Model chose an ineligible or unknown target."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 9,
+      "timestamp": "2026-09-17T04:17:30.999Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c9b6bf0c-ff89-472b-81ba-9239e1c46e04",
+      "sequence": 10,
+      "timestamp": "2026-09-17T04:17:31.000Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

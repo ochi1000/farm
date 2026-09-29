@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "a9ebd2e6-5d0a-4643-a0f7-5543634f2088",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:26:10.680Z",
+  "heartbeatAt": "2026-09-17T04:26:11.270Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 24,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a9ebd2e6-5d0a-4643-a0f7-5543634f2088\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v11"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 4,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 29644,
+  "currentStep": 3,
+  "error": "A scheduled eligible writing action requires a contextual draft.",
+  "errorCode": "INVALID_PLAN",
+  "finishedAt": "2026-09-17T04:26:11.262Z",
+  "cleanup": "complete"
+}

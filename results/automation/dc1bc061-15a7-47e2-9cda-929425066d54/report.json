@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "dc1bc061-15a7-47e2-9cda-929425066d54",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-18T02:23:26.262Z",
+  "heartbeatAt": "2026-09-18T02:23:26.853Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 21,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\dc1bc061-15a7-47e2-9cda-929425066d54\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "default",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v13"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 24188,
+  "currentStep": 3,
+  "error": "Cloud-backed model aliases are not permitted.",
+  "errorCode": "LOCAL_ONLY",
+  "finishedAt": "2026-09-18T02:23:26.849Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 1,
+      "timestamp": "2026-09-18T02:23:26.316Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 2,
+      "timestamp": "2026-09-18T02:23:26.520Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 3,
+      "timestamp": "2026-09-18T02:23:26.521Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 4,
+      "timestamp": "2026-09-18T02:23:26.592Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 5,
+      "timestamp": "2026-09-18T02:23:26.615Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 6,
+      "timestamp": "2026-09-18T02:23:26.616Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 7,
+      "timestamp": "2026-09-18T02:23:26.623Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 8,
+      "timestamp": "2026-09-18T02:23:26.624Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 9,
+      "timestamp": "2026-09-18T02:23:26.626Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 10,
+      "timestamp": "2026-09-18T02:23:26.691Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 11,
+      "timestamp": "2026-09-18T02:23:26.710Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 12,
+      "timestamp": "2026-09-18T02:23:26.711Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 13,
+      "timestamp": "2026-09-18T02:23:26.713Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 14,
+      "timestamp": "2026-09-18T02:23:26.719Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 15,
+      "timestamp": "2026-09-18T02:23:26.720Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 16,
+      "timestamp": "2026-09-18T02:23:26.722Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 17,
+      "timestamp": "2026-09-18T02:23:26.783Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 18,
+      "timestamp": "2026-09-18T02:23:26.802Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 19,
+      "timestamp": "2026-09-18T02:23:26.848Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Cloud-backed model aliases are not permitted."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 20,
+      "timestamp": "2026-09-18T02:23:26.852Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "dc1bc061-15a7-47e2-9cda-929425066d54",
+      "sequence": 21,
+      "timestamp": "2026-09-18T02:23:26.853Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

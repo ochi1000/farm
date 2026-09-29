@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 1,
+  "id": "dff54eed-4f7f-44cc-b910-2f73999451fd",
+  "pid": 32672,
+  "state": "completed_with_failures",
+  "startedAt": "2026-09-17T05:33:40.616Z",
+  "heartbeatAt": "2026-09-17T05:35:34.050Z",
+  "config": {
+    "fixtureVersion": 1,
+    "brain": {
+      "model": "qwen3.5:9b",
+      "baseUrl": "http://127.0.0.1:11434",
+      "timeoutMs": 60000,
+      "think": false,
+      "promptVersion": "contextual-v12"
+    },
+    "smoke": false,
+    "fixtures": [
+      "garden",
+      "notes",
+      "android",
+      "repair",
+      "science",
+      "thread",
+      "excluded",
+      "empty"
+    ],
+    "cycles": 2,
+    "sessionDurationMs": 240000
+  },
+  "sessions": [
+    {
+      "runId": "dfb0ac16-fd70-4533-8f24-bac5864af5b6",
+      "fixtureId": "garden",
+      "kind": "cancellation",
+      "state": "stopped",
+      "finishReason": "user_stop",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\dfb0ac16-fd70-4533-8f24-bac5864af5b6\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\dfb0ac16-fd70-4533-8f24-bac5864af5b6\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 1,
+      "processed": 2,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 1,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 634,
+      "stopLatencyMs": 56,
+      "stopObserved": true,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "197639d7-c9d2-4a83-9871-10aeac80829d",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\197639d7-c9d2-4a83-9871-10aeac80829d\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\197639d7-c9d2-4a83-9871-10aeac80829d\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 3,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "If a probe is disconnected, does the manual switch override the watering cycle immediately, or does the controller wait for the next sampling interval?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "You can use the manual switch to simulate moisture. Set it to 'wet' while leaving the probe disconnected, then check if the controller triggers a watering cycle."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "Using a ten-minute sampling interval saves power but risks overwatering if a leak occurs between checks. A shorter interval or a separate timer for the manual switch could balance battery life with safety."
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "text": "A design tradeoff exists here: if disconnected probes fail to trigger a stop, the controller risks overwatering during the sampling interval. A safety timeout might be needed."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 8,
+        "responses": 8,
+        "latencyMs": 22517,
+        "inputTokens": 5759,
+        "outputTokens": 800
+      },
+      "responseLatenciesMs": [
+        3054,
+        1972,
+        3205,
+        1974,
+        3554,
+        3100,
+        3413,
+        2245
+      ],
+      "elapsedMs": 24272,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "ad2689e8-1286-4334-af21-d511e26d9d38",
+      "fixtureId": "notes",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ad2689e8-1286-4334-af21-d511e26d9d38\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ad2689e8-1286-4334-af21-d511e26d9d38\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 3,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "You mention that low-confidence notes aren't queued for review. How are these items currently managed or displayed to the user?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "Select notes where the sorter's confidence score falls below your defined threshold. This creates a high-value set of ambiguous cases specifically designed to train or refine the labeling model."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "Running labeling logic entirely offline ensures privacy but introduces latency when users need immediate corrections. Balancing this delay against the benefit of no network dependency is a key design choice for local tools."
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "text": "Running the labeling model entirely offline ensures privacy but introduces latency. Balancing this against immediate user corrections requires careful tuning of inference speed versus accuracy thresholds."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 8,
+        "responses": 8,
+        "latencyMs": 22870,
+        "inputTokens": 5757,
+        "outputTokens": 794
+      },
+      "responseLatenciesMs": [
+        3208,
+        1747,
+        3286,
+        2281,
+        3662,
+        2386,
+        3433,
+        2867
+      ],
+      "elapsedMs": 24587,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "4f76b0d4-9af4-474e-bbe5-319d0d3dc5e3",
+      "fixtureId": "android",
+      "kind": "quality",
+      "state": "failed",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\4f76b0d4-9af4-474e-bbe5-319d0d3dc5e3\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\4f76b0d4-9af4-474e-bbe5-319d0d3dc5e3\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 2,
+      "processed": 4,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "Since the dashboard retains the last reading while a device is offline, could we visually distinguish it by showing the timestamp of that retained value versus a fresh update?"
+        }
+      ],
+      "rejectedDrafts": [
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "proposal": {
+            "reason": "Provides a concrete technical method to distinguish stale readings using the dashboard's existing timestamp data.",
+            "decision": "engage",
+            "targetId": "comment-1",
+            "text": "Compare the displayed timestamp against the current system time. If the difference exceeds the expected sampling interval (5 minutes), flag it as a retained reading rather than a fresh one.",
+            "evidence": "An Android lab dashboard samples battery level every five minutes. It retains the last reading while a device is offline and displays its timestamp. There is no"
+          }
+        }
+      ],
+      "rejectedReviews": [
+        {
+          "step": 5,
+          "relevant": true,
+          "grounded": true,
+          "notRepeated": false,
+          "reason": "The draft directly addresses the target question about distinguishing offline readings by proposing a timestamp comparison method. It is grounded in the provided context regarding the 5-minute sampling interval and does not repeat previous comments or invent facts."
+        }
+      ],
+      "category": "review_rejection",
+      "errorCode": "QUALITY_REJECTED",
+      "error": "Generated draft failed the contextual quality review.",
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 4,
+        "responses": 4,
+        "latencyMs": 11090,
+        "inputTokens": 2543,
+        "outputTokens": 384
+      },
+      "responseLatenciesMs": [
+        3538,
+        2046,
+        3444,
+        2062
+      ],
+      "elapsedMs": 11914,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "ba7744f4-c090-4b07-8569-eef451514b4a",
+      "fixtureId": "repair",
+      "kind": "quality",
+      "state": "failed",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ba7744f4-c090-4b07-8569-eef451514b4a\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ba7744f4-c090-4b07-8569-eef451514b4a\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 2,
+      "processed": 4,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "Could you number the similar connectors on the paper diagram and tape matching numbers to each port before reassembly?"
+        }
+      ],
+      "rejectedDrafts": [
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "proposal": {
+            "reason": "Provide a concrete, practical step to avoid connector confusion during reassembly.",
+            "decision": "engage",
+            "targetId": "comment-1",
+            "text": "Before reconnecting, briefly power the module and test each connector individually. This confirms which port controls which function before final screw-down.",
+            "evidence": "A repairable desk lamp uses a replaceable USB power module and screw-fastened panels. The prototype has a paper wiring diagram but no labels on its two similar "
+          }
+        }
+      ],
+      "rejectedReviews": [
+        {
+          "step": 5,
+          "relevant": true,
+          "grounded": true,
+          "notRepeated": false,
+          "reason": "The draft directly answers the target question about reducing reassembly errors by suggesting a functional test (powering and testing connectors). It relies solely on the provided context regarding the unlabeled similar connectors and does not repeat previous comments or invent facts."
+        }
+      ],
+      "category": "review_rejection",
+      "errorCode": "QUALITY_REJECTED",
+      "error": "Generated draft failed the contextual quality review.",
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 4,
+        "responses": 4,
+        "latencyMs": 9998,
+        "inputTokens": 2502,
+        "outputTokens": 365
+      },
+      "responseLatenciesMs": [
+        3170,
+        1906,
+        2963,
+        1959
+      ],
+      "elapsedMs": 10831,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "2d0e7567-b69a-4619-80ca-df5047bb1827",
+      "fixtureId": "science",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\2d0e7567-b69a-4619-80ca-df5047bb1827\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\2d0e7567-b69a-4619-80ca-df5047bb1827\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 5,
+      "writingCategories": [
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "Even with shading, an unventilated enclosure might trap heat from ambient air or sensor electronics, skewing readings over time. Is airflow a design constraint?"
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "text": "An unventilated enclosure creates a thermal lag where internal air temperature diverges from the shaded but stagnant ambient room temperature, potentially skewing both sensor readings equally."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 4,
+        "responses": 4,
+        "latencyMs": 10507,
+        "inputTokens": 2728,
+        "outputTokens": 394
+      },
+      "responseLatenciesMs": [
+        3078,
+        1914,
+        3349,
+        2166
+      ],
+      "elapsedMs": 12001,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "a35b905a-3d45-45bd-b4ed-be3d32cca73a",
+      "fixtureId": "thread",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a35b905a-3d45-45bd-b4ed-be3d32cca73a\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a35b905a-3d45-45bd-b4ed-be3d32cca73a\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 3,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "Does the five-minute manual override reset automatically if the fan stops, or does it require an explicit restart to clear the saved average?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "To verify this without generating dust, perform a cold boot while the environment is clean. Immediately observe if the system re-initializes to zero or retains the previous three-reading average. This confirms whether the restart logic clears the saved state as described in the '"
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "Note that restarting clears both the manual override and the saved average. This suggests the system resets its entire state rather than preserving the baseline reading for future cycles."
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "text": "The five-minute manual override window contrasts with the three-sample averaging delay. This suggests a design choice to prioritize immediate user control over rapid sensor-driven state changes during transient dust events."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 8,
+        "responses": 8,
+        "latencyMs": 22508,
+        "inputTokens": 5873,
+        "outputTokens": 820
+      },
+      "responseLatenciesMs": [
+        2891,
+        1896,
+        4428,
+        2283,
+        3202,
+        2065,
+        3340,
+        2403
+      ],
+      "elapsedMs": 24242,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "cba6d06b-d986-4426-8ce2-2e84b81e84f3",
+      "fixtureId": "excluded",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\cba6d06b-d986-4426-8ce2-2e84b81e84f3\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\cba6d06b-d986-4426-8ce2-2e84b81e84f3\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 8,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 11,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 14,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 14,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 1452,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "6d12c8df-744e-4d88-b5f4-b735079302ba",
+      "fixtureId": "empty",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6d12c8df-744e-4d88-b5f4-b735079302ba\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6d12c8df-744e-4d88-b5f4-b735079302ba\\report.md",
+      "completedCycles": 2,
+      "requestedCycles": 2,
+      "processed": 14,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 8,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 9,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 10,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 11,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 12,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 13,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 14,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 14,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 1429,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 8,
+    "fullyCompletedSessions": 6,
+    "completedCycles": 12,
+    "requestedCycles": 16,
+    "validSkips": 42,
+    "invalidSkips": 0,
+    "rejectedDrafts": 2,
+    "failureCategories": {
+      "review_rejection": 2
+    },
+    "writingCategories": [
+      "comment_post",
+      "reply_to_comment",
+      "create_post"
+    ],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 36,
+      "medianMs": 2891,
+      "p95Ms": 3662,
+      "maxMs": 4428
+    },
+    "modelMetrics": {
+      "requests": 36,
+      "responses": 36,
+      "latencyMs": 99490,
+      "inputTokens": 25162,
+      "outputTokens": 3557
+    },
+    "liveSubmissions": 0
+  },
+  "finishedAt": "2026-09-17T05:35:34.050Z"
+}

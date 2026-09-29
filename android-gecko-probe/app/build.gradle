@@ -1,0 +1,19 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.ocorp.geckoprobe'
+    compileSdk 37
+    defaultConfig {
+        applicationId 'com.ocorp.geckoprobe'
+        minSdk 26
+        targetSdk 36
+        versionCode 6
+        versionName '0.3.3'
+        buildConfigField 'String', 'GECKO_VERSION', '"155.0.20260903215306"'
+    }
+    buildFeatures { buildConfig true }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+dependencies { implementation 'org.mozilla.geckoview:geckoview:155.0.20260903215306' }

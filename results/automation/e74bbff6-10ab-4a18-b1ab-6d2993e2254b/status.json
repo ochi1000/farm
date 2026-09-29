@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "e74bbff6-10ab-4a18-b1ab-6d2993e2254b",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T23:28:21.745Z",
+  "heartbeatAt": "2026-09-17T23:28:43.548Z",
+  "completed": 12,
+  "total": 14,
+  "sequence": 108,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e74bbff6-10ab-4a18-b1ab-6d2993e2254b\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 3,
+  "fixtureId": "android",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 7,
+    "responses": 7,
+    "latencyMs": 20088,
+    "inputTokens": 4683,
+    "outputTokens": 743
+  },
+  "pid": 13472,
+  "currentStep": 13,
+  "error": "Draft is too similar to a recent contribution.",
+  "errorCode": "REPETITIVE_TEXT",
+  "finishedAt": "2026-09-17T23:28:43.533Z",
+  "cleanup": "complete"
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "f82c1226-e02d-407e-bcff-7058c131c330",
+  "mode": "simulation",
+  "state": "stopped",
+  "phase": "finished",
+  "startedAt": "2026-09-17T05:30:55.452Z",
+  "heartbeatAt": "2026-09-17T05:30:56.104Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 22,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f82c1226-e02d-407e-bcff-7058c131c330\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "garden",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 40492,
+  "currentStep": 3,
+  "stopRequestedAt": "2026-09-17T05:30:56.062Z",
+  "finishReason": "user_stop",
+  "finishedAt": "2026-09-17T05:30:56.100Z",
+  "cleanup": "complete",
+  "stopLatencyMs": 38,
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 1,
+      "timestamp": "2026-09-17T05:30:55.506Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 2,
+      "timestamp": "2026-09-17T05:30:55.717Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 3,
+      "timestamp": "2026-09-17T05:30:55.719Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 4,
+      "timestamp": "2026-09-17T05:30:55.784Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 5,
+      "timestamp": "2026-09-17T05:30:55.810Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 6,
+      "timestamp": "2026-09-17T05:30:55.812Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A garden controller samples moisture every ten minutes and waters for twenty seconds. A manual switch is available. Disconnected probes are not detected.",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 7,
+      "timestamp": "2026-09-17T05:30:55.818Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 8,
+      "timestamp": "2026-09-17T05:30:55.820Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 9,
+      "timestamp": "2026-09-17T05:30:55.821Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 10,
+      "timestamp": "2026-09-17T05:30:55.885Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 11,
+      "timestamp": "2026-09-17T05:30:55.904Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 12,
+      "timestamp": "2026-09-17T05:30:55.906Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A garden controller samples moisture every ten minutes and waters for twenty seconds. A manual switch is available. Disconnected probes are not detected.",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 13,
+      "timestamp": "2026-09-17T05:30:55.907Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 14,
+      "timestamp": "2026-09-17T05:30:55.914Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 15,
+      "timestamp": "2026-09-17T05:30:55.916Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 16,
+      "timestamp": "2026-09-17T05:30:55.917Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 17,
+      "timestamp": "2026-09-17T05:30:55.974Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 18,
+      "timestamp": "2026-09-17T05:30:55.999Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 19,
+      "timestamp": "2026-09-17T05:30:56.040Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 20,
+      "timestamp": "2026-09-17T05:30:56.091Z",
+      "type": "stop_requested",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 21,
+      "timestamp": "2026-09-17T05:30:56.103Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "f82c1226-e02d-407e-bcff-7058c131c330",
+      "sequence": 22,
+      "timestamp": "2026-09-17T05:30:56.104Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "stopped"
+    }
+  ]
+}

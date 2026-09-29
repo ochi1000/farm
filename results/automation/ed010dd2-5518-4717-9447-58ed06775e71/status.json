@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "ed010dd2-5518-4717-9447-58ed06775e71",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:44:01.532Z",
+  "heartbeatAt": "2026-09-17T00:44:16.267Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ed010dd2-5518-4717-9447-58ed06775e71\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 14058,
+    "inputTokens": 487,
+    "outputTokens": 80
+  },
+  "pid": 18152,
+  "currentStep": 1,
+  "error": "Read and like decisions must not include a draft.",
+  "errorCode": "INVALID_TEXT",
+  "finishedAt": "2026-09-17T00:44:16.259Z",
+  "cleanup": "complete"
+}

@@ -1,0 +1,8 @@
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":1,"timestamp":"2026-09-17T04:23:07.097Z","type":"starting","stepId":0}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":2,"timestamp":"2026-09-17T04:23:07.310Z","type":"ready","stepId":0}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":3,"timestamp":"2026-09-17T04:23:07.312Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":4,"timestamp":"2026-09-17T04:23:07.376Z","type":"preparing","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":5,"timestamp":"2026-09-17T04:23:07.430Z","type":"model_request","stepId":1,"action":"view_post","purpose":"plan"}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":6,"timestamp":"2026-09-17T04:23:52.534Z","type":"error","stepId":1,"message":"Ollama returned incomplete output."}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":7,"timestamp":"2026-09-17T04:23:52.537Z","type":"cleanup","stepId":1}
+{"schemaVersion":1,"runId":"b61fb48b-03a4-4b46-a3f1-36ed678b09ac","sequence":8,"timestamp":"2026-09-17T04:23:52.538Z","type":"finished","stepId":1,"state":"failed"}

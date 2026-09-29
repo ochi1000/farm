@@ -1,0 +1,14 @@
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":1,"timestamp":"2026-09-17T00:23:41.030Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":2,"timestamp":"2026-09-17T00:23:41.240Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":3,"timestamp":"2026-09-17T00:23:41.242Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":4,"timestamp":"2026-09-17T00:23:41.244Z","type":"persona_decision","stepId":1,"action":"view_post","message":"Choose automation: interest 10/10, not yet viewed.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":5,"timestamp":"2026-09-17T00:23:41.308Z","type":"preparing","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":6,"timestamp":"2026-09-17T00:23:41.374Z","type":"action_verified","stepId":2,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":7,"timestamp":"2026-09-17T00:23:41.376Z","type":"waiting","stepId":2}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":8,"timestamp":"2026-09-17T00:23:41.377Z","type":"action_started","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":9,"timestamp":"2026-09-17T00:23:41.379Z","type":"persona_decision","stepId":2,"action":"like_post","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":10,"timestamp":"2026-09-17T00:23:41.434Z","type":"preparing","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":11,"timestamp":"2026-09-17T00:23:41.490Z","type":"before_submit","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":12,"timestamp":"2026-09-17T00:23:41.554Z","type":"stop_requested","stepId":2}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":13,"timestamp":"2026-09-17T00:23:41.591Z","type":"cleanup","stepId":2}
+{"schemaVersion":1,"runId":"1dbc9e58-d507-4aed-b8ab-bec8cf2d3c68","sequence":14,"timestamp":"2026-09-17T00:23:41.592Z","type":"finished","stepId":2,"state":"stopped"}

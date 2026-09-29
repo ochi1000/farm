@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "test-timed-aef54973-1164-454e-97c1-ed5d791862ea",
+  "pid": 11424,
+  "state": "completed_with_failures",
+  "startedAt": "2026-09-17T22:30:47.603Z",
+  "heartbeatAt": "2026-09-17T22:30:48.648Z",
+  "config": {
+    "smoke": true,
+    "fixtures": [
+      "empty"
+    ],
+    "cycles": 1,
+    "durationMs": 600,
+    "sessionDurationMs": 20000,
+    "brain": {
+      "baseUrl": "http://127.0.0.1:51610",
+      "model": "fixture-local",
+      "timeoutMs": 2000
+    }
+  },
+  "sessions": [
+    {
+      "runId": "b353dd36-76c1-4484-b0cf-508c23f6f1e3",
+      "fixtureId": "empty",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\b353dd36-76c1-4484-b0cf-508c23f6f1e3\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\b353dd36-76c1-4484-b0cf-508c23f6f1e3\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 7,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 862,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "deadlineAt": "2026-09-17T22:30:48.203Z",
+  "aggregate": {
+    "qualitySessions": 1,
+    "fullyCompletedSessions": 1,
+    "completedCycles": 1,
+    "requestedCycles": 1,
+    "validSkips": 7,
+    "invalidSkips": 0,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 0,
+      "medianMs": null,
+      "p95Ms": null,
+      "maxMs": null
+    },
+    "modelMetrics": {
+      "requests": 0,
+      "responses": 0,
+      "latencyMs": 0,
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "liveSubmissions": 0
+  },
+  "finishReason": "duration_limit",
+  "finishedAt": "2026-09-17T22:30:48.648Z"
+}

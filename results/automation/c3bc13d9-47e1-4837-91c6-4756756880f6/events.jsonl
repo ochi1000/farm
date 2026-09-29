@@ -1,0 +1,6 @@
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":1,"timestamp":"2026-09-15T22:28:06.997Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":2,"timestamp":"2026-09-15T22:28:07.203Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":3,"timestamp":"2026-09-15T22:28:07.204Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":4,"timestamp":"2026-09-15T22:28:07.269Z","type":"error","stepId":1,"message":"Injected action failure"}
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":5,"timestamp":"2026-09-15T22:28:07.272Z","type":"cleanup","stepId":1}
+{"schemaVersion":1,"runId":"c3bc13d9-47e1-4837-91c6-4756756880f6","sequence":6,"timestamp":"2026-09-15T22:28:07.274Z","type":"finished","stepId":1,"state":"failed"}

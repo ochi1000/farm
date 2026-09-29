@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "id": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+  "mode": "simulation",
+  "state": "completed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T22:30:13.624Z",
+  "heartbeatAt": "2026-09-17T22:30:14.586Z",
+  "completed": 7,
+  "total": 7,
+  "sequence": 39,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6c451d65-71f5-4ea6-ba65-dc06dc66132f\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 7,
+  "fixtureId": "excluded",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 13012,
+  "currentStep": 7,
+  "finishReason": "sequence_complete",
+  "finishedAt": "2026-09-17T22:30:14.581Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 1,
+      "timestamp": "2026-09-17T22:30:13.675Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 2,
+      "timestamp": "2026-09-17T22:30:13.891Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 3,
+      "timestamp": "2026-09-17T22:30:13.894Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 4,
+      "timestamp": "2026-09-17T22:30:13.960Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 5,
+      "timestamp": "2026-09-17T22:30:13.985Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 6,
+      "timestamp": "2026-09-17T22:30:13.992Z",
+      "type": "action_skipped",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 7,
+      "timestamp": "2026-09-17T22:30:13.993Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 8,
+      "timestamp": "2026-09-17T22:30:13.995Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 9,
+      "timestamp": "2026-09-17T22:30:14.056Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 10,
+      "timestamp": "2026-09-17T22:30:14.081Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 11,
+      "timestamp": "2026-09-17T22:30:14.090Z",
+      "type": "action_skipped",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 12,
+      "timestamp": "2026-09-17T22:30:14.091Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 13,
+      "timestamp": "2026-09-17T22:30:14.092Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 14,
+      "timestamp": "2026-09-17T22:30:14.155Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 15,
+      "timestamp": "2026-09-17T22:30:14.175Z",
+      "type": "persona_decision",
+      "stepId": 3,
+      "action": "comment_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 16,
+      "timestamp": "2026-09-17T22:30:14.183Z",
+      "type": "action_skipped",
+      "stepId": 3,
+      "action": "comment_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 17,
+      "timestamp": "2026-09-17T22:30:14.184Z",
+      "type": "waiting",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 18,
+      "timestamp": "2026-09-17T22:30:14.185Z",
+      "type": "action_started",
+      "stepId": 4,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 19,
+      "timestamp": "2026-09-17T22:30:14.250Z",
+      "type": "preparing",
+      "stepId": 4,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 20,
+      "timestamp": "2026-09-17T22:30:14.269Z",
+      "type": "persona_decision",
+      "stepId": 4,
+      "action": "read_comments",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 21,
+      "timestamp": "2026-09-17T22:30:14.276Z",
+      "type": "action_skipped",
+      "stepId": 4,
+      "action": "read_comments",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 22,
+      "timestamp": "2026-09-17T22:30:14.278Z",
+      "type": "waiting",
+      "stepId": 4
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 23,
+      "timestamp": "2026-09-17T22:30:14.279Z",
+      "type": "action_started",
+      "stepId": 5,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 24,
+      "timestamp": "2026-09-17T22:30:14.341Z",
+      "type": "preparing",
+      "stepId": 5,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 25,
+      "timestamp": "2026-09-17T22:30:14.366Z",
+      "type": "persona_decision",
+      "stepId": 5,
+      "action": "reply_to_comment",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 26,
+      "timestamp": "2026-09-17T22:30:14.373Z",
+      "type": "action_skipped",
+      "stepId": 5,
+      "action": "reply_to_comment",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 27,
+      "timestamp": "2026-09-17T22:30:14.374Z",
+      "type": "waiting",
+      "stepId": 5
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 28,
+      "timestamp": "2026-09-17T22:30:14.376Z",
+      "type": "action_started",
+      "stepId": 6,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 29,
+      "timestamp": "2026-09-17T22:30:14.451Z",
+      "type": "preparing",
+      "stepId": 6,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 30,
+      "timestamp": "2026-09-17T22:30:14.477Z",
+      "type": "persona_decision",
+      "stepId": 6,
+      "action": "create_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 31,
+      "timestamp": "2026-09-17T22:30:14.484Z",
+      "type": "action_skipped",
+      "stepId": 6,
+      "action": "create_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 32,
+      "timestamp": "2026-09-17T22:30:14.485Z",
+      "type": "waiting",
+      "stepId": 6
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 33,
+      "timestamp": "2026-09-17T22:30:14.486Z",
+      "type": "action_started",
+      "stepId": 7,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 34,
+      "timestamp": "2026-09-17T22:30:14.546Z",
+      "type": "preparing",
+      "stepId": 7,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 35,
+      "timestamp": "2026-09-17T22:30:14.571Z",
+      "type": "persona_decision",
+      "stepId": 7,
+      "action": "scroll_feed",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 36,
+      "timestamp": "2026-09-17T22:30:14.578Z",
+      "type": "action_skipped",
+      "stepId": 7,
+      "action": "scroll_feed",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 37,
+      "timestamp": "2026-09-17T22:30:14.580Z",
+      "type": "waiting",
+      "stepId": 7
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 38,
+      "timestamp": "2026-09-17T22:30:14.585Z",
+      "type": "cleanup",
+      "stepId": 7
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "6c451d65-71f5-4ea6-ba65-dc06dc66132f",
+      "sequence": 39,
+      "timestamp": "2026-09-17T22:30:14.586Z",
+      "type": "finished",
+      "stepId": 7,
+      "state": "completed"
+    }
+  ]
+}

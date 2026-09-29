@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "912b3697-af53-49df-a48b-97a652c095c5",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:43:51.175Z",
+  "heartbeatAt": "2026-09-17T00:43:51.579Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\912b3697-af53-49df-a48b-97a652c095c5\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 5,
+    "inputTokens": 20,
+    "outputTokens": 10
+  },
+  "pid": 36684,
+  "currentStep": 1,
+  "error": "Model chose an ineligible or unknown target.",
+  "errorCode": "INVALID_TARGET",
+  "finishedAt": "2026-09-17T00:43:51.569Z",
+  "cleanup": "complete"
+}

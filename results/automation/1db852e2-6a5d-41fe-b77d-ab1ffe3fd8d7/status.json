@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "1db852e2-6a5d-41fe-b77d-ab1ffe3fd8d7",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:32.807Z",
+  "heartbeatAt": "2026-09-17T04:17:33.370Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\1db852e2-6a5d-41fe-b77d-ab1ffe3fd8d7\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 18180,
+  "currentStep": 1,
+  "error": "Local model request timed out.",
+  "errorCode": "MODEL_TIMEOUT",
+  "finishedAt": "2026-09-17T04:17:33.361Z",
+  "cleanup": "complete"
+}

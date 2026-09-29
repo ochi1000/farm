@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "1b1d5cad-94fb-417a-9dd0-e36455e6e048",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:23:42.609Z",
+  "heartbeatAt": "2026-09-17T00:23:43.200Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 7,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\1b1d5cad-94fb-417a-9dd0-e36455e6e048\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "pid": 35740,
+  "error": "Action deadline exceeded",
+  "finishedAt": "2026-09-17T00:23:43.198Z",
+  "cleanup": "complete"
+}

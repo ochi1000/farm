@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "ed010dd2-5518-4717-9447-58ed06775e71",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:44:01.532Z",
+  "heartbeatAt": "2026-09-17T00:44:16.264Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\ed010dd2-5518-4717-9447-58ed06775e71\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 14058,
+    "inputTokens": 487,
+    "outputTokens": 80
+  },
+  "pid": 18152,
+  "currentStep": 1,
+  "error": "Read and like decisions must not include a draft.",
+  "errorCode": "INVALID_TEXT",
+  "finishedAt": "2026-09-17T00:44:16.259Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:44:01.592Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:44:01.794Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:44:01.796Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:44:01.865Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 5,
+      "timestamp": "2026-09-17T00:44:02.193Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 6,
+      "timestamp": "2026-09-17T00:44:16.251Z",
+      "type": "model_response",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan",
+      "latencyMs": 14058,
+      "inputTokens": 487,
+      "outputTokens": 80
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 7,
+      "timestamp": "2026-09-17T00:44:16.258Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Read and like decisions must not include a draft."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 8,
+      "timestamp": "2026-09-17T00:44:16.263Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "ed010dd2-5518-4717-9447-58ed06775e71",
+      "sequence": 9,
+      "timestamp": "2026-09-17T00:44:16.264Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

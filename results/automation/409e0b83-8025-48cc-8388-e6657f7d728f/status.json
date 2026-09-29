@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "409e0b83-8025-48cc-8388-e6657f7d728f",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:43:52.358Z",
+  "heartbeatAt": "2026-09-17T00:43:52.759Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 7,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\409e0b83-8025-48cc-8388-e6657f7d728f\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 21460,
+  "currentStep": 1,
+  "error": "Cloud-backed model aliases are not permitted.",
+  "errorCode": "LOCAL_ONLY",
+  "finishedAt": "2026-09-17T00:43:52.750Z",
+  "cleanup": "complete"
+}

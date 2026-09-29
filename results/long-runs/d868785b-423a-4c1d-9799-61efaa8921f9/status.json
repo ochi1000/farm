@@ -1,0 +1,13 @@
+{
+  "id": "d868785b-423a-4c1d-9799-61efaa8921f9",
+  "deviceId": "orchestration-test-1789406427643",
+  "state": "stopped",
+  "actionClass": "read-only",
+  "startedAt": "2026-09-14T17:20:27.646Z",
+  "heartbeatAt": "2026-09-14T17:20:29.861Z",
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\long-runs\\d868785b-423a-4c1d-9799-61efaa8921f9\\report.json",
+  "pid": 32844,
+  "completedCycles": 0,
+  "finishedAt": "2026-09-14T17:20:29.859Z",
+  "phase": "finished"
+}

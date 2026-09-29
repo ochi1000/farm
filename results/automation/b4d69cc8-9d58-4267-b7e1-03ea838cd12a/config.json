@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "mode": "simulation",
+  "cycles": 1,
+  "stepMs": 30,
+  "waitMs": 10,
+  "timeoutMs": 30000,
+  "durationMs": 300000,
+  "fault": "hang",
+  "faultStep": 1
+}

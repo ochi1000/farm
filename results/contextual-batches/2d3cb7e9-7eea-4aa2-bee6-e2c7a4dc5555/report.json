@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "2d3cb7e9-7eea-4aa2-bee6-e2c7a4dc5555",
+  "pid": 33688,
+  "state": "passed",
+  "startedAt": "2026-09-18T02:26:06.734Z",
+  "heartbeatAt": "2026-09-18T02:26:24.672Z",
+  "config": {
+    "fixtureVersion": 1,
+    "brain": {
+      "model": "qwen3.5:9b",
+      "baseUrl": "http://127.0.0.1:11434",
+      "timeoutMs": 60000,
+      "think": false,
+      "promptVersion": "contextual-v13"
+    },
+    "smoke": true,
+    "fixtures": [
+      "garden"
+    ],
+    "cycles": 1,
+    "sessionDurationMs": 240000
+  },
+  "sessions": [
+    {
+      "runId": "55bb7346-a8c4-4121-9c13-07b549ce69b0",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\55bb7346-a8c4-4121-9c13-07b549ce69b0\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\55bb7346-a8c4-4121-9c13-07b549ce69b0\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "If the manual switch works, can we use it to trigger a water cycle while the controller is in standby? How would that help us confirm the probe status?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "Try disconnecting one probe and momentarily shorting its two wires together. If the controller triggers watering, it confirms the circuit is functional without activating the solenoid valve."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "A ten-minute sampling interval saves power but delays watering if a sensor fails or dries out quickly. A shorter interval improves reliability at the cost of more frequent controller wake-ups."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "invalidReviewAttempts": 0,
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 6,
+        "responses": 6,
+        "latencyMs": 16458,
+        "inputTokens": 3893,
+        "outputTokens": 574
+      },
+      "responseLatenciesMs": [
+        3536,
+        2051,
+        3152,
+        2070,
+        3511,
+        2138
+      ],
+      "elapsedMs": 17532,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 1,
+    "fullyCompletedSessions": 1,
+    "completedCycles": 1,
+    "requestedCycles": 1,
+    "validSkips": 0,
+    "invalidSkips": 0,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [
+      "comment_post",
+      "reply_to_comment",
+      "create_post"
+    ],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 6,
+      "medianMs": 2138,
+      "p95Ms": 3536,
+      "maxMs": 3536
+    },
+    "invalidReviewAttempts": 0,
+    "modelMetrics": {
+      "requests": 6,
+      "responses": 6,
+      "latencyMs": 16458,
+      "inputTokens": 3893,
+      "outputTokens": 574
+    },
+    "liveSubmissions": 0
+  },
+  "finishReason": "sequence_complete",
+  "finishedAt": "2026-09-18T02:26:24.672Z"
+}

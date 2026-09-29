@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "id": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-18T02:23:25.567Z",
+  "heartbeatAt": "2026-09-18T02:23:26.217Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 28,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\c95fbbae-27fb-4e6d-864f-ab097ae3b127\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "default",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v13"
+  },
+  "modelMetrics": {
+    "requests": 2,
+    "responses": 2,
+    "latencyMs": 7,
+    "inputTokens": 40,
+    "outputTokens": 20
+  },
+  "pid": 4092,
+  "currentStep": 3,
+  "error": "Generated draft failed the contextual quality review.",
+  "errorCode": "QUALITY_REJECTED",
+  "finishedAt": "2026-09-18T02:23:26.211Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 1,
+      "timestamp": "2026-09-18T02:23:25.621Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 2,
+      "timestamp": "2026-09-18T02:23:25.831Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 3,
+      "timestamp": "2026-09-18T02:23:25.832Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 4,
+      "timestamp": "2026-09-18T02:23:25.900Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 5,
+      "timestamp": "2026-09-18T02:23:25.911Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 6,
+      "timestamp": "2026-09-18T02:23:25.913Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 7,
+      "timestamp": "2026-09-18T02:23:25.921Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 8,
+      "timestamp": "2026-09-18T02:23:25.922Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 9,
+      "timestamp": "2026-09-18T02:23:25.924Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 10,
+      "timestamp": "2026-09-18T02:23:25.988Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 11,
+      "timestamp": "2026-09-18T02:23:26.006Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 12,
+      "timestamp": "2026-09-18T02:23:26.008Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 13,
+      "timestamp": "2026-09-18T02:23:26.010Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 14,
+      "timestamp": "2026-09-18T02:23:26.017Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 15,
+      "timestamp": "2026-09-18T02:23:26.018Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 16,
+      "timestamp": "2026-09-18T02:23:26.019Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 17,
+      "timestamp": "2026-09-18T02:23:26.082Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 18,
+      "timestamp": "2026-09-18T02:23:26.100Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 19,
+      "timestamp": "2026-09-18T02:23:26.136Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 20,
+      "timestamp": "2026-09-18T02:23:26.140Z",
+      "type": "model_response",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan",
+      "latencyMs": 4,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 21,
+      "timestamp": "2026-09-18T02:23:26.142Z",
+      "type": "plan_proposed",
+      "stepId": 3,
+      "action": "comment_post",
+      "proposal": {
+        "decision": "engage",
+        "targetId": "post-1",
+        "text": "Could the garden sensor distinguish dry soil from a disconnected probe?",
+        "reason": "Practical automation matches the persona.",
+        "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a d"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 22,
+      "timestamp": "2026-09-18T02:23:26.143Z",
+      "type": "draft_proposed",
+      "stepId": 3,
+      "action": "comment_post",
+      "text": "Could the garden sensor distinguish dry soil from a disconnected probe?",
+      "targetId": "post-1",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a d",
+      "message": "Could the garden sensor distinguish dry soil from a disconnected probe?"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 23,
+      "timestamp": "2026-09-18T02:23:26.145Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "review"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 24,
+      "timestamp": "2026-09-18T02:23:26.147Z",
+      "type": "model_response",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "review",
+      "latencyMs": 3,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 25,
+      "timestamp": "2026-09-18T02:23:26.148Z",
+      "type": "quality_review",
+      "stepId": 3,
+      "action": "comment_post",
+      "reviewVersion": "evidence-v2",
+      "attempt": 1,
+      "accepted": false,
+      "verdict": "reject",
+      "category": "relevance",
+      "reason": "Fixture review",
+      "draftQuote": "Could the garden sensor distinguish dry soil from a disconnected probe?",
+      "priorId": "",
+      "priorQuote": "",
+      "repeatedIdea": ""
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 26,
+      "timestamp": "2026-09-18T02:23:26.209Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Generated draft failed the contextual quality review."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 27,
+      "timestamp": "2026-09-18T02:23:26.215Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "c95fbbae-27fb-4e6d-864f-ab097ae3b127",
+      "sequence": 28,
+      "timestamp": "2026-09-18T02:23:26.216Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

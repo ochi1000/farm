@@ -1,0 +1,16 @@
+{
+  "fixtureVersion": 1,
+  "brain": {
+    "model": "qwen3.5:9b",
+    "baseUrl": "http://127.0.0.1:11434",
+    "timeoutMs": 60000,
+    "think": false,
+    "promptVersion": "contextual-v12"
+  },
+  "smoke": true,
+  "fixtures": [
+    "garden"
+  ],
+  "cycles": 1,
+  "sessionDurationMs": 240000
+}

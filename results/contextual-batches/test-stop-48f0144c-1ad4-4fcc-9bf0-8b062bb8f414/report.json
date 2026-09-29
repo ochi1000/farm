@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "test-stop-48f0144c-1ad4-4fcc-9bf0-8b062bb8f414",
+  "pid": 6900,
+  "state": "stopped",
+  "startedAt": "2026-09-18T02:21:39.635Z",
+  "heartbeatAt": "2026-09-18T02:21:40.690Z",
+  "config": {
+    "smoke": true,
+    "fixtures": [
+      "garden",
+      "android"
+    ],
+    "cycles": 1,
+    "sessionDurationMs": 20000,
+    "brain": {
+      "baseUrl": "http://127.0.0.1:62882",
+      "model": "fixture-local",
+      "timeoutMs": 2000
+    }
+  },
+  "sessions": [
+    {
+      "runId": "e94c7d25-ff22-40a5-af5b-fad0d48b7a04",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "stopped",
+      "finishReason": "user_stop",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e94c7d25-ff22-40a5-af5b-fad0d48b7a04\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e94c7d25-ff22-40a5-af5b-fad0d48b7a04\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 1,
+      "processed": 2,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "invalidReviewAttempts": 0,
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 617,
+      "stopLatencyMs": 83,
+      "stopObserved": true,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 1,
+    "fullyCompletedSessions": 0,
+    "completedCycles": 0,
+    "requestedCycles": 1,
+    "validSkips": 0,
+    "invalidSkips": 0,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 0,
+      "medianMs": null,
+      "p95Ms": null,
+      "maxMs": null
+    },
+    "invalidReviewAttempts": 0,
+    "modelMetrics": {
+      "requests": 0,
+      "responses": 0,
+      "latencyMs": 0,
+      "inputTokens": 0,
+      "outputTokens": 0
+    },
+    "liveSubmissions": 0
+  },
+  "finishReason": "user_stop",
+  "finishedAt": "2026-09-18T02:21:40.690Z"
+}

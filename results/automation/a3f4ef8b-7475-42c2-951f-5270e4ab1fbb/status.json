@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "a3f4ef8b-7475-42c2-951f-5270e4ab1fbb",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:41:44.407Z",
+  "heartbeatAt": "2026-09-17T00:41:44.999Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 6,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a3f4ef8b-7475-42c2-951f-5270e4ab1fbb\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "deterministic"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 37256,
+  "currentStep": 1,
+  "error": "Action deadline exceeded",
+  "errorCode": "ACTION_FAILED",
+  "finishedAt": "2026-09-17T00:41:44.992Z",
+  "cleanup": "complete"
+}

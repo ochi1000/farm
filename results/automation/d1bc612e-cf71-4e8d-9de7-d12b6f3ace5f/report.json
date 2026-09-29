@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:41:44.060Z",
+  "heartbeatAt": "2026-09-17T00:41:44.394Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 6,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "deterministic"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 22852,
+  "currentStep": 1,
+  "error": "Injected action failure",
+  "errorCode": "ACTION_FAILED",
+  "finishedAt": "2026-09-17T00:41:44.389Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:41:44.110Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:41:44.318Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:41:44.320Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:41:44.388Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Injected action failure"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 5,
+      "timestamp": "2026-09-17T00:41:44.392Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "d1bc612e-cf71-4e8d-9de7-d12b6f3ace5f",
+      "sequence": 6,
+      "timestamp": "2026-09-17T00:41:44.394Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

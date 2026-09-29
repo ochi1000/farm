@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:15:53.908Z",
+  "heartbeatAt": "2026-09-17T04:15:54.463Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\efae1034-fde2-49a8-be00-f060cbb8d5b3\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v4"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 11660,
+  "currentStep": 1,
+  "error": "Local model request timed out.",
+  "errorCode": "MODEL_TIMEOUT",
+  "finishedAt": "2026-09-17T04:15:54.458Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:15:53.957Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:15:54.164Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:15:54.165Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:15:54.229Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:15:54.283Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:15:54.456Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Local model request timed out."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:15:54.461Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "efae1034-fde2-49a8-be00-f060cbb8d5b3",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:15:54.463Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

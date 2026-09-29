@@ -1,0 +1,14 @@
+node_modules/
+dist/
+results/*.json
+.env
+.tools/
+.desktop-data/
+.automation/
+android-x-runner/.gradle/
+android-x-runner/local.properties
+android-x-runner/app/build/
+android-gecko-probe/.gradle/
+android-gecko-probe/local.properties
+android-gecko-probe/app/build/
+android-gecko-probe/build/

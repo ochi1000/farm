@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "4a4a95c9-9261-485a-a422-7b769f98c942",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-15T22:25:40.302Z",
+  "heartbeatAt": "2026-09-15T22:25:40.361Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 4,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\4a4a95c9-9261-485a-a422-7b769f98c942\\report.md",
+  "pid": 14116,
+  "error": "EPERM: operation not permitted, rename 'C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\4a4a95c9-9261-485a-a422-7b769f98c942\\status.json.c981ab11-b0e4-4ab0-8afd-47baebef80c4.tmp' -> 'C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\4a4a95c9-9261-485a-a422-7b769f98c942\\status.json'",
+  "finishedAt": "2026-09-15T22:25:40.358Z",
+  "cleanup": "complete"
+}

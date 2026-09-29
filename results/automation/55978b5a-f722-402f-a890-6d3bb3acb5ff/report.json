@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "id": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:26:12.559Z",
+  "heartbeatAt": "2026-09-17T04:26:13.149Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 24,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\55978b5a-f722-402f-a890-6d3bb3acb5ff\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v11"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 4,
+    "inputTokens": 20,
+    "outputTokens": 10
+  },
+  "pid": 11368,
+  "currentStep": 3,
+  "error": "Model chose an ineligible or unknown target.",
+  "errorCode": "INVALID_TARGET",
+  "finishedAt": "2026-09-17T04:26:13.143Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:26:12.610Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:26:12.818Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:26:12.819Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:26:12.884Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:26:12.898Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:26:12.900Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:26:12.907Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:26:12.908Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 9,
+      "timestamp": "2026-09-17T04:26:12.909Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 10,
+      "timestamp": "2026-09-17T04:26:12.969Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 11,
+      "timestamp": "2026-09-17T04:26:12.992Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 12,
+      "timestamp": "2026-09-17T04:26:12.994Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 13,
+      "timestamp": "2026-09-17T04:26:12.995Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 14,
+      "timestamp": "2026-09-17T04:26:13.003Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 15,
+      "timestamp": "2026-09-17T04:26:13.004Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 16,
+      "timestamp": "2026-09-17T04:26:13.005Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 17,
+      "timestamp": "2026-09-17T04:26:13.064Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 18,
+      "timestamp": "2026-09-17T04:26:13.086Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 19,
+      "timestamp": "2026-09-17T04:26:13.128Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 20,
+      "timestamp": "2026-09-17T04:26:13.133Z",
+      "type": "model_response",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan",
+      "latencyMs": 4,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 21,
+      "timestamp": "2026-09-17T04:26:13.134Z",
+      "type": "plan_proposed",
+      "stepId": 3,
+      "action": "comment_post",
+      "proposal": {
+        "decision": "engage",
+        "targetId": "unknown",
+        "text": "Could the garden sensor distinguish dry soil from a disconnected probe?",
+        "reason": "Practical automation matches the persona.",
+        "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a d"
+      }
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 22,
+      "timestamp": "2026-09-17T04:26:13.142Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Model chose an ineligible or unknown target."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 23,
+      "timestamp": "2026-09-17T04:26:13.147Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55978b5a-f722-402f-a890-6d3bb3acb5ff",
+      "sequence": 24,
+      "timestamp": "2026-09-17T04:26:13.149Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

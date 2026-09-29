@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:45:44.184Z",
+  "heartbeatAt": "2026-09-17T00:45:46.731Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6ebc4249-92ed-4ab7-b21a-3cda6baa6e0a\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "promptVersion": "contextual-v2"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 2147,
+    "inputTokens": 572,
+    "outputTokens": 59
+  },
+  "pid": 14080,
+  "currentStep": 1,
+  "error": "Decision must cite an exact detail from its target context.",
+  "errorCode": "UNGROUNDED",
+  "finishedAt": "2026-09-17T00:45:46.723Z",
+  "cleanup": "complete"
+}

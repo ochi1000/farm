@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "3908762c-aab1-4642-bfb9-f3056d83e9a5",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T05:01:04.167Z",
+  "heartbeatAt": "2026-09-17T05:01:09.190Z",
+  "completed": 2,
+  "total": 21,
+  "sequence": 17,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3908762c-aab1-4642-bfb9-f3056d83e9a5\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "deterministic"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 35560,
+  "currentStep": 3,
+  "error": "Injected action failure",
+  "errorCode": "ACTION_FAILED",
+  "finishedAt": "2026-09-17T05:01:09.173Z",
+  "cleanup": "complete"
+}

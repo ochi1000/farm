@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "6277cc43-af37-4c04-a48e-577b8f2bce5e",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:30.166Z",
+  "heartbeatAt": "2026-09-17T04:17:30.565Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\6277cc43-af37-4c04-a48e-577b8f2bce5e\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 1996,
+  "currentStep": 1,
+  "error": "Ollama returned malformed JSON.",
+  "errorCode": "INVALID_RESPONSE",
+  "finishedAt": "2026-09-17T04:17:30.555Z",
+  "cleanup": "complete"
+}

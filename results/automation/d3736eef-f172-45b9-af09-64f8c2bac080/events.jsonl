@@ -1,0 +1,4 @@
+{"schemaVersion":1,"runId":"d3736eef-f172-45b9-af09-64f8c2bac080","sequence":1,"timestamp":"2026-09-17T00:23:46.132Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"d3736eef-f172-45b9-af09-64f8c2bac080","sequence":2,"timestamp":"2026-09-17T00:23:46.346Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"d3736eef-f172-45b9-af09-64f8c2bac080","sequence":3,"timestamp":"2026-09-17T00:23:46.347Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"d3736eef-f172-45b9-af09-64f8c2bac080","sequence":4,"timestamp":"2026-09-17T00:23:46.349Z","type":"persona_decision","stepId":1,"action":"view_post","message":"Choose automation: interest 10/10, not yet viewed.","targetId":"post-1"}

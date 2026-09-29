@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "84f7e34e-15f1-47c3-94a9-5e658a7d4e00",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-18T02:23:22.220Z",
+  "heartbeatAt": "2026-09-18T02:23:22.878Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 31,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\84f7e34e-15f1-47c3-94a9-5e658a7d4e00\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "default",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v13"
+  },
+  "modelMetrics": {
+    "requests": 3,
+    "responses": 3,
+    "latencyMs": 11,
+    "inputTokens": 60,
+    "outputTokens": 30
+  },
+  "pid": 11148,
+  "currentStep": 3,
+  "error": "Reviewer failed to provide a valid review after two attempts.",
+  "errorCode": "INVALID_REVIEW",
+  "finishedAt": "2026-09-18T02:23:22.861Z",
+  "cleanup": "complete"
+}

@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Local Gecko feasibility probe",
+  "version": "0.3.1",
+  "browser_specific_settings": {"gecko": {"id": "probe@ocorp.local"}},
+  "permissions": ["nativeMessaging", "nativeMessagingFromContent", "geckoViewAddons"],
+  "content_scripts": [{
+    "matches": ["https://x.com/*", "https://twitter.com/*", "https://www.x.com/*", "https://www.twitter.com/*"],
+    "js": ["content.js"], "run_at": "document_idle", "all_frames": false
+  }]
+}

@@ -1,0 +1,1 @@
+Read AGENTS.md, docs/PROJECT_STATE.md, and docs/RUNBOOK.md. Continue from the recorded next objective.

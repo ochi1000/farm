@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "57236db5-4963-4e52-86df-3b96f577319c",
+  "mode": "simulation",
+  "state": "stopped",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:32.248Z",
+  "heartbeatAt": "2026-09-17T04:17:32.755Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\57236db5-4963-4e52-86df-3b96f577319c\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 3240,
+  "currentStep": 1,
+  "stopRequestedAt": "2026-09-17T04:17:32.696Z",
+  "finishReason": "user_stop",
+  "finishedAt": "2026-09-17T04:17:32.751Z",
+  "cleanup": "complete",
+  "stopLatencyMs": 55,
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:17:32.306Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:17:32.508Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:17:32.511Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:17:32.578Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:17:32.639Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:17:32.740Z",
+      "type": "stop_requested",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:17:32.754Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "57236db5-4963-4e52-86df-3b96f577319c",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:17:32.755Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "stopped"
+    }
+  ]
+}

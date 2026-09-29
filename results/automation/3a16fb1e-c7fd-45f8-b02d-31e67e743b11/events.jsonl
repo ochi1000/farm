@@ -1,0 +1,6 @@
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":1,"timestamp":"2026-09-15T22:28:35.467Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":2,"timestamp":"2026-09-15T22:28:35.679Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":3,"timestamp":"2026-09-15T22:28:35.695Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":4,"timestamp":"2026-09-15T22:28:35.760Z","type":"error","stepId":1,"message":"Injected action failure"}
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":5,"timestamp":"2026-09-15T22:28:35.763Z","type":"cleanup","stepId":1}
+{"schemaVersion":1,"runId":"3a16fb1e-c7fd-45f8-b02d-31e67e743b11","sequence":6,"timestamp":"2026-09-15T22:28:35.764Z","type":"finished","stepId":1,"state":"failed"}

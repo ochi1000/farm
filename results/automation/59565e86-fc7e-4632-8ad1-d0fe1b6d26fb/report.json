@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "id": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+  "mode": "simulation",
+  "state": "completed",
+  "phase": "finished",
+  "startedAt": "2026-09-18T02:28:49.536Z",
+  "heartbeatAt": "2026-09-18T02:28:50.918Z",
+  "completed": 14,
+  "total": 14,
+  "sequence": 74,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\59565e86-fc7e-4632-8ad1-d0fe1b6d26fb\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 14,
+  "fixtureId": "excluded",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "promptVersion": "contextual-v13"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 37016,
+  "currentStep": 14,
+  "finishReason": "sequence_complete",
+  "finishedAt": "2026-09-18T02:28:50.914Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 1,
+      "timestamp": "2026-09-18T02:28:49.584Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 2,
+      "timestamp": "2026-09-18T02:28:49.791Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 3,
+      "timestamp": "2026-09-18T02:28:49.793Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 4,
+      "timestamp": "2026-09-18T02:28:49.853Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 5,
+      "timestamp": "2026-09-18T02:28:49.869Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 6,
+      "timestamp": "2026-09-18T02:28:49.876Z",
+      "type": "action_skipped",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 7,
+      "timestamp": "2026-09-18T02:28:49.878Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 8,
+      "timestamp": "2026-09-18T02:28:49.879Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 9,
+      "timestamp": "2026-09-18T02:28:49.934Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 10,
+      "timestamp": "2026-09-18T02:28:49.947Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 11,
+      "timestamp": "2026-09-18T02:28:49.954Z",
+      "type": "action_skipped",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 12,
+      "timestamp": "2026-09-18T02:28:49.955Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 13,
+      "timestamp": "2026-09-18T02:28:49.956Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 14,
+      "timestamp": "2026-09-18T02:28:50.010Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 15,
+      "timestamp": "2026-09-18T02:28:50.027Z",
+      "type": "persona_decision",
+      "stepId": 3,
+      "action": "comment_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 16,
+      "timestamp": "2026-09-18T02:28:50.034Z",
+      "type": "action_skipped",
+      "stepId": 3,
+      "action": "comment_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 17,
+      "timestamp": "2026-09-18T02:28:50.035Z",
+      "type": "waiting",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 18,
+      "timestamp": "2026-09-18T02:28:50.036Z",
+      "type": "action_started",
+      "stepId": 4,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 19,
+      "timestamp": "2026-09-18T02:28:50.091Z",
+      "type": "preparing",
+      "stepId": 4,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 20,
+      "timestamp": "2026-09-18T02:28:50.107Z",
+      "type": "persona_decision",
+      "stepId": 4,
+      "action": "read_comments",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 21,
+      "timestamp": "2026-09-18T02:28:50.114Z",
+      "type": "action_skipped",
+      "stepId": 4,
+      "action": "read_comments",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 22,
+      "timestamp": "2026-09-18T02:28:50.115Z",
+      "type": "waiting",
+      "stepId": 4
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 23,
+      "timestamp": "2026-09-18T02:28:50.116Z",
+      "type": "action_started",
+      "stepId": 5,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 24,
+      "timestamp": "2026-09-18T02:28:50.171Z",
+      "type": "preparing",
+      "stepId": 5,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 25,
+      "timestamp": "2026-09-18T02:28:50.187Z",
+      "type": "persona_decision",
+      "stepId": 5,
+      "action": "reply_to_comment",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 26,
+      "timestamp": "2026-09-18T02:28:50.193Z",
+      "type": "action_skipped",
+      "stepId": 5,
+      "action": "reply_to_comment",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 27,
+      "timestamp": "2026-09-18T02:28:50.195Z",
+      "type": "waiting",
+      "stepId": 5
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 28,
+      "timestamp": "2026-09-18T02:28:50.196Z",
+      "type": "action_started",
+      "stepId": 6,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 29,
+      "timestamp": "2026-09-18T02:28:50.254Z",
+      "type": "preparing",
+      "stepId": 6,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 30,
+      "timestamp": "2026-09-18T02:28:50.265Z",
+      "type": "persona_decision",
+      "stepId": 6,
+      "action": "create_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 31,
+      "timestamp": "2026-09-18T02:28:50.272Z",
+      "type": "action_skipped",
+      "stepId": 6,
+      "action": "create_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 32,
+      "timestamp": "2026-09-18T02:28:50.273Z",
+      "type": "waiting",
+      "stepId": 6
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 33,
+      "timestamp": "2026-09-18T02:28:50.275Z",
+      "type": "action_started",
+      "stepId": 7,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 34,
+      "timestamp": "2026-09-18T02:28:50.331Z",
+      "type": "preparing",
+      "stepId": 7,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 35,
+      "timestamp": "2026-09-18T02:28:50.344Z",
+      "type": "persona_decision",
+      "stepId": 7,
+      "action": "scroll_feed",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 36,
+      "timestamp": "2026-09-18T02:28:50.354Z",
+      "type": "action_skipped",
+      "stepId": 7,
+      "action": "scroll_feed",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 37,
+      "timestamp": "2026-09-18T02:28:50.355Z",
+      "type": "waiting",
+      "stepId": 7
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 38,
+      "timestamp": "2026-09-18T02:28:50.356Z",
+      "type": "action_started",
+      "stepId": 8,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 39,
+      "timestamp": "2026-09-18T02:28:50.414Z",
+      "type": "preparing",
+      "stepId": 8,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 40,
+      "timestamp": "2026-09-18T02:28:50.436Z",
+      "type": "persona_decision",
+      "stepId": 8,
+      "action": "view_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 41,
+      "timestamp": "2026-09-18T02:28:50.442Z",
+      "type": "action_skipped",
+      "stepId": 8,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 42,
+      "timestamp": "2026-09-18T02:28:50.443Z",
+      "type": "waiting",
+      "stepId": 8
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 43,
+      "timestamp": "2026-09-18T02:28:50.444Z",
+      "type": "action_started",
+      "stepId": 9,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 44,
+      "timestamp": "2026-09-18T02:28:50.498Z",
+      "type": "preparing",
+      "stepId": 9,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 45,
+      "timestamp": "2026-09-18T02:28:50.512Z",
+      "type": "persona_decision",
+      "stepId": 9,
+      "action": "like_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 46,
+      "timestamp": "2026-09-18T02:28:50.519Z",
+      "type": "action_skipped",
+      "stepId": 9,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 47,
+      "timestamp": "2026-09-18T02:28:50.520Z",
+      "type": "waiting",
+      "stepId": 9
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 48,
+      "timestamp": "2026-09-18T02:28:50.521Z",
+      "type": "action_started",
+      "stepId": 10,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 49,
+      "timestamp": "2026-09-18T02:28:50.575Z",
+      "type": "preparing",
+      "stepId": 10,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 50,
+      "timestamp": "2026-09-18T02:28:50.589Z",
+      "type": "persona_decision",
+      "stepId": 10,
+      "action": "comment_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 51,
+      "timestamp": "2026-09-18T02:28:50.595Z",
+      "type": "action_skipped",
+      "stepId": 10,
+      "action": "comment_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 52,
+      "timestamp": "2026-09-18T02:28:50.597Z",
+      "type": "waiting",
+      "stepId": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 53,
+      "timestamp": "2026-09-18T02:28:50.598Z",
+      "type": "action_started",
+      "stepId": 11,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 54,
+      "timestamp": "2026-09-18T02:28:50.653Z",
+      "type": "preparing",
+      "stepId": 11,
+      "action": "read_comments"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 55,
+      "timestamp": "2026-09-18T02:28:50.666Z",
+      "type": "persona_decision",
+      "stepId": 11,
+      "action": "read_comments",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 56,
+      "timestamp": "2026-09-18T02:28:50.673Z",
+      "type": "action_skipped",
+      "stepId": 11,
+      "action": "read_comments",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 57,
+      "timestamp": "2026-09-18T02:28:50.674Z",
+      "type": "waiting",
+      "stepId": 11
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 58,
+      "timestamp": "2026-09-18T02:28:50.675Z",
+      "type": "action_started",
+      "stepId": 12,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 59,
+      "timestamp": "2026-09-18T02:28:50.728Z",
+      "type": "preparing",
+      "stepId": 12,
+      "action": "reply_to_comment"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 60,
+      "timestamp": "2026-09-18T02:28:50.746Z",
+      "type": "persona_decision",
+      "stepId": 12,
+      "action": "reply_to_comment",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 61,
+      "timestamp": "2026-09-18T02:28:50.752Z",
+      "type": "action_skipped",
+      "stepId": 12,
+      "action": "reply_to_comment",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 62,
+      "timestamp": "2026-09-18T02:28:50.753Z",
+      "type": "waiting",
+      "stepId": 12
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 63,
+      "timestamp": "2026-09-18T02:28:50.755Z",
+      "type": "action_started",
+      "stepId": 13,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 64,
+      "timestamp": "2026-09-18T02:28:50.809Z",
+      "type": "preparing",
+      "stepId": 13,
+      "action": "create_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 65,
+      "timestamp": "2026-09-18T02:28:50.826Z",
+      "type": "persona_decision",
+      "stepId": 13,
+      "action": "create_post",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 66,
+      "timestamp": "2026-09-18T02:28:50.832Z",
+      "type": "action_skipped",
+      "stepId": 13,
+      "action": "create_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 67,
+      "timestamp": "2026-09-18T02:28:50.833Z",
+      "type": "waiting",
+      "stepId": 13
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 68,
+      "timestamp": "2026-09-18T02:28:50.834Z",
+      "type": "action_started",
+      "stepId": 14,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 69,
+      "timestamp": "2026-09-18T02:28:50.888Z",
+      "type": "preparing",
+      "stepId": 14,
+      "action": "scroll_feed"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 70,
+      "timestamp": "2026-09-18T02:28:50.905Z",
+      "type": "persona_decision",
+      "stepId": 14,
+      "action": "scroll_feed",
+      "skip": true,
+      "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+      "message": "No eligible target remains after interest, exclusion, and duplicate checks."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 71,
+      "timestamp": "2026-09-18T02:28:50.911Z",
+      "type": "action_skipped",
+      "stepId": 14,
+      "action": "scroll_feed",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 72,
+      "timestamp": "2026-09-18T02:28:50.912Z",
+      "type": "waiting",
+      "stepId": 14
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 73,
+      "timestamp": "2026-09-18T02:28:50.917Z",
+      "type": "cleanup",
+      "stepId": 14
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "59565e86-fc7e-4632-8ad1-d0fe1b6d26fb",
+      "sequence": 74,
+      "timestamp": "2026-09-18T02:28:50.917Z",
+      "type": "finished",
+      "stepId": 14,
+      "state": "completed"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":1,"timestamp":"2026-09-17T00:23:42.300Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":2,"timestamp":"2026-09-17T00:23:42.509Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":3,"timestamp":"2026-09-17T00:23:42.511Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":4,"timestamp":"2026-09-17T00:23:42.513Z","type":"persona_decision","stepId":1,"action":"view_post","message":"Choose automation: interest 10/10, not yet viewed.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":5,"timestamp":"2026-09-17T00:23:42.583Z","type":"error","stepId":1,"message":"Injected action failure"}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":6,"timestamp":"2026-09-17T00:23:42.586Z","type":"cleanup","stepId":1}
+{"schemaVersion":1,"runId":"8e595d26-f596-4385-abb6-261f8b5c1409","sequence":7,"timestamp":"2026-09-17T00:23:42.588Z","type":"finished","stepId":1,"state":"failed"}

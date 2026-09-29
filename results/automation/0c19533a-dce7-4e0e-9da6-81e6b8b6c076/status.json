@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "0c19533a-dce7-4e0e-9da6-81e6b8b6c076",
+  "mode": "simulation",
+  "state": "completed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T22:30:51.720Z",
+  "heartbeatAt": "2026-09-17T22:31:20.358Z",
+  "completed": 7,
+  "total": 7,
+  "sequence": 74,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\0c19533a-dce7-4e0e-9da6-81e6b8b6c076\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "garden",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 6,
+    "responses": 6,
+    "latencyMs": 27533,
+    "inputTokens": 3871,
+    "outputTokens": 574
+  },
+  "pid": 15352,
+  "currentStep": 7,
+  "finishReason": "sequence_complete",
+  "finishedAt": "2026-09-17T22:31:20.351Z",
+  "cleanup": "complete"
+}

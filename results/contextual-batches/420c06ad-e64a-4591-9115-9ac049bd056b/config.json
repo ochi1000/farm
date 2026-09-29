@@ -1,0 +1,25 @@
+{
+  "fixtureVersion": 1,
+  "brain": {
+    "model": "qwen3.5:9b",
+    "baseUrl": "http://127.0.0.1:11434",
+    "timeoutMs": 60000,
+    "think": false,
+    "promptVersion": "contextual-v12"
+  },
+  "smoke": false,
+  "fixtures": [
+    "garden",
+    "notes",
+    "android",
+    "repair",
+    "science",
+    "thread",
+    "excluded",
+    "empty"
+  ],
+  "cycles": 2,
+  "sessionDurationMs": 240000,
+  "durationMs": 3600000,
+  "preflightSmoke": true
+}

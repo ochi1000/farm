@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "id": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:43:51.615Z",
+  "heartbeatAt": "2026-09-17T00:43:52.344Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 27,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\573c6f6a-2cad-4923-9aca-d13b03195fee\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 4,
+    "responses": 4,
+    "latencyMs": 17,
+    "inputTokens": 80,
+    "outputTokens": 40
+  },
+  "pid": 37364,
+  "currentStep": 3,
+  "error": "Generated draft failed the contextual quality review.",
+  "errorCode": "QUALITY_REJECTED",
+  "finishedAt": "2026-09-17T00:43:52.339Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:43:51.668Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:43:51.877Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:43:51.879Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:43:51.945Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 5,
+      "timestamp": "2026-09-17T00:43:51.993Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 6,
+      "timestamp": "2026-09-17T00:43:51.998Z",
+      "type": "model_response",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan",
+      "latencyMs": 5,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 7,
+      "timestamp": "2026-09-17T00:43:51.999Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "reason": "Practical automation matches the persona.",
+      "evidence": "A simple sensor automates watering a small garden.",
+      "message": "Practical automation matches the persona."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 8,
+      "timestamp": "2026-09-17T00:43:52.004Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 9,
+      "timestamp": "2026-09-17T00:43:52.006Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 10,
+      "timestamp": "2026-09-17T00:43:52.007Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 11,
+      "timestamp": "2026-09-17T00:43:52.065Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 12,
+      "timestamp": "2026-09-17T00:43:52.118Z",
+      "type": "model_request",
+      "stepId": 2,
+      "action": "like_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 13,
+      "timestamp": "2026-09-17T00:43:52.122Z",
+      "type": "model_response",
+      "stepId": 2,
+      "action": "like_post",
+      "purpose": "plan",
+      "latencyMs": 4,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 14,
+      "timestamp": "2026-09-17T00:43:52.124Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "reason": "Practical automation matches the persona.",
+      "evidence": "A simple sensor automates watering a small garden.",
+      "message": "Practical automation matches the persona."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 15,
+      "timestamp": "2026-09-17T00:43:52.125Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 16,
+      "timestamp": "2026-09-17T00:43:52.132Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 17,
+      "timestamp": "2026-09-17T00:43:52.134Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 18,
+      "timestamp": "2026-09-17T00:43:52.135Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 19,
+      "timestamp": "2026-09-17T00:43:52.198Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 20,
+      "timestamp": "2026-09-17T00:43:52.262Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 21,
+      "timestamp": "2026-09-17T00:43:52.266Z",
+      "type": "model_response",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan",
+      "latencyMs": 5,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 22,
+      "timestamp": "2026-09-17T00:43:52.267Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "review"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 23,
+      "timestamp": "2026-09-17T00:43:52.270Z",
+      "type": "model_response",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "review",
+      "latencyMs": 3,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 24,
+      "timestamp": "2026-09-17T00:43:52.271Z",
+      "type": "quality_review",
+      "stepId": 3,
+      "action": "comment_post",
+      "accepted": false,
+      "reason": "Fixture review"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 25,
+      "timestamp": "2026-09-17T00:43:52.338Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Generated draft failed the contextual quality review."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 26,
+      "timestamp": "2026-09-17T00:43:52.343Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "573c6f6a-2cad-4923-9aca-d13b03195fee",
+      "sequence": 27,
+      "timestamp": "2026-09-17T00:43:52.344Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:17:29.726Z",
+  "heartbeatAt": "2026-09-17T04:17:30.119Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\fb678ba3-b321-4644-bcc3-677e12a2f1fd\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v5"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 40476,
+  "currentStep": 1,
+  "error": "Ollama returned HTTP 503.",
+  "errorCode": "MODEL_HTTP",
+  "finishedAt": "2026-09-17T04:17:30.116Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:17:29.774Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:17:29.990Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:17:29.991Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:17:30.057Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:17:30.103Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:17:30.114Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Ollama returned HTTP 503."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:17:30.118Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "fb678ba3-b321-4644-bcc3-677e12a2f1fd",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:17:30.119Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

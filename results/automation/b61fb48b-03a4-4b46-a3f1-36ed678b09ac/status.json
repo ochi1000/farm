@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "b61fb48b-03a4-4b46-a3f1-36ed678b09ac",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:23:07.046Z",
+  "heartbeatAt": "2026-09-17T04:23:52.541Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 8,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\b61fb48b-03a4-4b46-a3f1-36ed678b09ac\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": true,
+    "promptVersion": "contextual-v9"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 416,
+  "currentStep": 1,
+  "error": "Ollama returned incomplete output.",
+  "errorCode": "INVALID_RESPONSE",
+  "finishedAt": "2026-09-17T04:23:52.535Z",
+  "cleanup": "complete"
+}

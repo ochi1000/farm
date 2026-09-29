@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "3808d5ec-dfa0-444d-9035-184213140803",
+  "mode": "simulation",
+  "state": "stopped",
+  "phase": "finished",
+  "startedAt": "2026-09-18T02:21:14.634Z",
+  "heartbeatAt": "2026-09-18T02:21:15.280Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 22,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\3808d5ec-dfa0-444d-9035-184213140803\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "default",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v13"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 21144,
+  "currentStep": 3,
+  "stopRequestedAt": "2026-09-18T02:21:15.208Z",
+  "finishReason": "user_stop",
+  "finishedAt": "2026-09-18T02:21:15.271Z",
+  "cleanup": "complete",
+  "stopLatencyMs": 63
+}

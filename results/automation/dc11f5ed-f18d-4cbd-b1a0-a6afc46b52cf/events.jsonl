@@ -1,0 +1,100 @@
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":1,"timestamp":"2026-09-17T00:24:26.600Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":2,"timestamp":"2026-09-17T00:24:26.803Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":3,"timestamp":"2026-09-17T00:24:26.819Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":4,"timestamp":"2026-09-17T00:24:26.822Z","type":"persona_decision","stepId":1,"action":"view_post","message":"Choose automation: interest 10/10, not yet viewed.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":5,"timestamp":"2026-09-17T00:24:26.887Z","type":"preparing","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":6,"timestamp":"2026-09-17T00:24:26.915Z","type":"action_verified","stepId":2,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":7,"timestamp":"2026-09-17T00:24:26.916Z","type":"waiting","stepId":2}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":8,"timestamp":"2026-09-17T00:24:26.918Z","type":"action_started","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":9,"timestamp":"2026-09-17T00:24:26.919Z","type":"persona_decision","stepId":2,"action":"like_post","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":10,"timestamp":"2026-09-17T00:24:26.977Z","type":"preparing","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":11,"timestamp":"2026-09-17T00:24:26.990Z","type":"submission_started","stepId":2,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":12,"timestamp":"2026-09-17T00:24:26.996Z","type":"action_verified","stepId":3,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":13,"timestamp":"2026-09-17T00:24:26.997Z","type":"waiting","stepId":3}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":14,"timestamp":"2026-09-17T00:24:26.999Z","type":"action_started","stepId":3,"action":"comment_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":15,"timestamp":"2026-09-17T00:24:27.000Z","type":"persona_decision","stepId":3,"action":"comment_post","message":"automation matches the persona; ask a practical question.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":16,"timestamp":"2026-09-17T00:24:27.058Z","type":"preparing","stepId":3,"action":"comment_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":17,"timestamp":"2026-09-17T00:24:27.082Z","type":"draft_ready","stepId":3,"action":"comment_post","message":"What was the most useful lesson from your automation project?"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":18,"timestamp":"2026-09-17T00:24:27.086Z","type":"submission_started","stepId":3,"action":"comment_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":19,"timestamp":"2026-09-17T00:24:27.094Z","type":"action_verified","stepId":4,"action":"comment_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":20,"timestamp":"2026-09-17T00:24:27.096Z","type":"waiting","stepId":4}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":21,"timestamp":"2026-09-17T00:24:27.097Z","type":"action_started","stepId":4,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":22,"timestamp":"2026-09-17T00:24:27.098Z","type":"persona_decision","stepId":4,"action":"read_comments","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":23,"timestamp":"2026-09-17T00:24:27.156Z","type":"preparing","stepId":4,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":24,"timestamp":"2026-09-17T00:24:27.183Z","type":"action_verified","stepId":5,"action":"read_comments","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":25,"timestamp":"2026-09-17T00:24:27.184Z","type":"waiting","stepId":5}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":26,"timestamp":"2026-09-17T00:24:27.186Z","type":"action_started","stepId":5,"action":"reply_to_comment"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":27,"timestamp":"2026-09-17T00:24:27.187Z","type":"persona_decision","stepId":5,"action":"reply_to_comment","message":"Reply to a constructive automation comment; avoid arguments.","targetId":"comment-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":28,"timestamp":"2026-09-17T00:24:27.242Z","type":"preparing","stepId":5,"action":"reply_to_comment"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":29,"timestamp":"2026-09-17T00:24:27.256Z","type":"draft_ready","stepId":5,"action":"reply_to_comment","message":"For automation, a small repeatable test sounds like a useful next step."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":30,"timestamp":"2026-09-17T00:24:27.258Z","type":"submission_started","stepId":5,"action":"reply_to_comment","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":31,"timestamp":"2026-09-17T00:24:27.265Z","type":"action_verified","stepId":6,"action":"reply_to_comment","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":32,"timestamp":"2026-09-17T00:24:27.266Z","type":"waiting","stepId":6}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":33,"timestamp":"2026-09-17T00:24:27.267Z","type":"action_started","stepId":6,"action":"create_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":34,"timestamp":"2026-09-17T00:24:27.268Z","type":"persona_decision","stepId":6,"action":"create_post","message":"Share a short thought about automation, the strongest eligible interest.","targetId":"new-post-6"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":35,"timestamp":"2026-09-17T00:24:27.333Z","type":"preparing","stepId":6,"action":"create_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":36,"timestamp":"2026-09-17T00:24:27.349Z","type":"draft_ready","stepId":6,"action":"create_post","message":"Simulation note: exploring how small automation projects can make everyday tasks easier."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":37,"timestamp":"2026-09-17T00:24:27.351Z","type":"submission_started","stepId":6,"action":"create_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":38,"timestamp":"2026-09-17T00:24:27.357Z","type":"action_verified","stepId":7,"action":"create_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":39,"timestamp":"2026-09-17T00:24:27.358Z","type":"waiting","stepId":7}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":40,"timestamp":"2026-09-17T00:24:27.359Z","type":"action_started","stepId":7,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":41,"timestamp":"2026-09-17T00:24:27.360Z","type":"persona_decision","stepId":7,"action":"scroll_feed","message":"Choose local ai: interest 9/10, not yet viewed.","targetId":"post-2"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":42,"timestamp":"2026-09-17T00:24:27.414Z","type":"preparing","stepId":7,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":43,"timestamp":"2026-09-17T00:24:27.432Z","type":"action_verified","stepId":8,"action":"scroll_feed","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":44,"timestamp":"2026-09-17T00:24:27.433Z","type":"waiting","stepId":8}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":45,"timestamp":"2026-09-17T00:24:27.434Z","type":"action_started","stepId":8,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":46,"timestamp":"2026-09-17T00:24:27.435Z","type":"persona_decision","stepId":8,"action":"view_post","message":"Choose automation: interest 10/10, previously seen.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":47,"timestamp":"2026-09-17T00:24:27.491Z","type":"preparing","stepId":8,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":48,"timestamp":"2026-09-17T00:24:27.511Z","type":"action_verified","stepId":9,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":49,"timestamp":"2026-09-17T00:24:27.512Z","type":"waiting","stepId":9}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":50,"timestamp":"2026-09-17T00:24:27.513Z","type":"action_started","stepId":9,"action":"like_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":51,"timestamp":"2026-09-17T00:24:27.514Z","type":"persona_decision","stepId":9,"action":"like_post","message":"This post is already liked."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":52,"timestamp":"2026-09-17T00:24:27.515Z","type":"action_skipped","stepId":10,"action":"like_post","message":"This post is already liked."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":53,"timestamp":"2026-09-17T00:24:27.516Z","type":"action_started","stepId":10,"action":"comment_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":54,"timestamp":"2026-09-17T00:24:27.517Z","type":"persona_decision","stepId":10,"action":"comment_post","message":"Already commented on this post."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":55,"timestamp":"2026-09-17T00:24:27.518Z","type":"action_skipped","stepId":11,"action":"comment_post","message":"Already commented on this post."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":56,"timestamp":"2026-09-17T00:24:27.519Z","type":"action_started","stepId":11,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":57,"timestamp":"2026-09-17T00:24:27.519Z","type":"persona_decision","stepId":11,"action":"read_comments","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":58,"timestamp":"2026-09-17T00:24:27.577Z","type":"preparing","stepId":11,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":59,"timestamp":"2026-09-17T00:24:27.603Z","type":"action_verified","stepId":12,"action":"read_comments","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":60,"timestamp":"2026-09-17T00:24:27.604Z","type":"waiting","stepId":12}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":61,"timestamp":"2026-09-17T00:24:27.605Z","type":"action_started","stepId":12,"action":"reply_to_comment"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":62,"timestamp":"2026-09-17T00:24:27.607Z","type":"persona_decision","stepId":12,"action":"reply_to_comment","message":"No relevant, unreplied-to constructive comment."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":63,"timestamp":"2026-09-17T00:24:27.608Z","type":"action_skipped","stepId":13,"action":"reply_to_comment","message":"No relevant, unreplied-to constructive comment."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":64,"timestamp":"2026-09-17T00:24:27.609Z","type":"action_started","stepId":13,"action":"create_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":65,"timestamp":"2026-09-17T00:24:27.611Z","type":"persona_decision","stepId":13,"action":"create_post","message":"This draft was already posted in this simulation."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":66,"timestamp":"2026-09-17T00:24:27.612Z","type":"action_skipped","stepId":14,"action":"create_post","message":"This draft was already posted in this simulation."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":67,"timestamp":"2026-09-17T00:24:27.613Z","type":"action_started","stepId":14,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":68,"timestamp":"2026-09-17T00:24:27.614Z","type":"persona_decision","stepId":14,"action":"scroll_feed","message":"Choose automation: interest 10/10, previously seen.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":69,"timestamp":"2026-09-17T00:24:27.668Z","type":"preparing","stepId":14,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":70,"timestamp":"2026-09-17T00:24:27.697Z","type":"action_verified","stepId":15,"action":"scroll_feed","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":71,"timestamp":"2026-09-17T00:24:27.698Z","type":"waiting","stepId":15}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":72,"timestamp":"2026-09-17T00:24:27.699Z","type":"action_started","stepId":15,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":73,"timestamp":"2026-09-17T00:24:27.700Z","type":"persona_decision","stepId":15,"action":"view_post","message":"Choose automation: interest 10/10, previously seen.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":74,"timestamp":"2026-09-17T00:24:27.754Z","type":"preparing","stepId":15,"action":"view_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":75,"timestamp":"2026-09-17T00:24:27.776Z","type":"action_verified","stepId":16,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":76,"timestamp":"2026-09-17T00:24:27.777Z","type":"waiting","stepId":16}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":77,"timestamp":"2026-09-17T00:24:27.779Z","type":"action_started","stepId":16,"action":"like_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":78,"timestamp":"2026-09-17T00:24:27.780Z","type":"persona_decision","stepId":16,"action":"like_post","message":"This post is already liked."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":79,"timestamp":"2026-09-17T00:24:27.782Z","type":"action_skipped","stepId":17,"action":"like_post","message":"This post is already liked."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":80,"timestamp":"2026-09-17T00:24:27.783Z","type":"action_started","stepId":17,"action":"comment_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":81,"timestamp":"2026-09-17T00:24:27.784Z","type":"persona_decision","stepId":17,"action":"comment_post","message":"Already commented on this post."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":82,"timestamp":"2026-09-17T00:24:27.785Z","type":"action_skipped","stepId":18,"action":"comment_post","message":"Already commented on this post."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":83,"timestamp":"2026-09-17T00:24:27.786Z","type":"action_started","stepId":18,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":84,"timestamp":"2026-09-17T00:24:27.788Z","type":"persona_decision","stepId":18,"action":"read_comments","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":85,"timestamp":"2026-09-17T00:24:27.844Z","type":"preparing","stepId":18,"action":"read_comments"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":86,"timestamp":"2026-09-17T00:24:27.872Z","type":"action_verified","stepId":19,"action":"read_comments","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":87,"timestamp":"2026-09-17T00:24:27.874Z","type":"waiting","stepId":19}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":88,"timestamp":"2026-09-17T00:24:27.876Z","type":"action_started","stepId":19,"action":"reply_to_comment"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":89,"timestamp":"2026-09-17T00:24:27.877Z","type":"persona_decision","stepId":19,"action":"reply_to_comment","message":"No relevant, unreplied-to constructive comment."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":90,"timestamp":"2026-09-17T00:24:27.878Z","type":"action_skipped","stepId":20,"action":"reply_to_comment","message":"No relevant, unreplied-to constructive comment."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":91,"timestamp":"2026-09-17T00:24:27.879Z","type":"action_started","stepId":20,"action":"create_post"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":92,"timestamp":"2026-09-17T00:24:27.881Z","type":"persona_decision","stepId":20,"action":"create_post","message":"This draft was already posted in this simulation."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":93,"timestamp":"2026-09-17T00:24:27.882Z","type":"action_skipped","stepId":21,"action":"create_post","message":"This draft was already posted in this simulation."}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":94,"timestamp":"2026-09-17T00:24:27.883Z","type":"action_started","stepId":21,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":95,"timestamp":"2026-09-17T00:24:27.884Z","type":"persona_decision","stepId":21,"action":"scroll_feed","message":"Choose automation: interest 10/10, previously seen.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":96,"timestamp":"2026-09-17T00:24:27.939Z","type":"preparing","stepId":21,"action":"scroll_feed"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":97,"timestamp":"2026-09-17T00:24:27.966Z","type":"action_verified","stepId":22,"action":"scroll_feed","certainty":"simulated"}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":98,"timestamp":"2026-09-17T00:24:27.967Z","type":"waiting","stepId":22}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":99,"timestamp":"2026-09-17T00:24:27.969Z","type":"cleanup","stepId":22}
+{"schemaVersion":1,"runId":"dc11f5ed-f18d-4cbd-b1a0-a6afc46b52cf","sequence":100,"timestamp":"2026-09-17T00:24:27.970Z","type":"finished","stepId":22,"state":"completed"}

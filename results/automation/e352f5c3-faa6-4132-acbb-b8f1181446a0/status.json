@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "e352f5c3-faa6-4132-acbb-b8f1181446a0",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T23:25:23.958Z",
+  "heartbeatAt": "2026-09-17T23:25:27.649Z",
+  "completed": 2,
+  "total": 14,
+  "sequence": 24,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e352f5c3-faa6-4132-acbb-b8f1181446a0\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "fixtureId": "thread",
+  "fixtureVersion": 1,
+  "brain": {
+    "mode": "ollama",
+    "model": "qwen3.5:9b",
+    "thinking": false,
+    "promptVersion": "contextual-v12"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 3086,
+    "inputTokens": 544,
+    "outputTokens": 110
+  },
+  "pid": 32176,
+  "currentStep": 3,
+  "error": "Draft repeats an existing thread contribution.",
+  "errorCode": "REPETITIVE_TEXT",
+  "finishedAt": "2026-09-17T23:25:27.634Z",
+  "cleanup": "complete"
+}

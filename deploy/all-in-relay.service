@@ -1,0 +1,19 @@
+[Unit]
+Description=All in secure phone relay
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=allin-relay
+EnvironmentFile=/etc/all-in-relay.env
+ExecStart=/usr/bin/node /opt/all-in-relay/relay-server.mjs
+WorkingDirectory=/opt/all-in-relay
+Environment=RELAY_REGISTRY_PATH=/opt/all-in-relay/relay-devices.json
+Restart=always
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

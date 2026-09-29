@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "912b3697-af53-49df-a48b-97a652c095c5",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:43:51.175Z",
+  "heartbeatAt": "2026-09-17T00:43:51.575Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 9,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\912b3697-af53-49df-a48b-97a652c095c5\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "promptVersion": "contextual-v1"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 1,
+    "latencyMs": 5,
+    "inputTokens": 20,
+    "outputTokens": 10
+  },
+  "pid": 36684,
+  "currentStep": 1,
+  "error": "Model chose an ineligible or unknown target.",
+  "errorCode": "INVALID_TARGET",
+  "finishedAt": "2026-09-17T00:43:51.569Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:43:51.226Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:43:51.436Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:43:51.438Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:43:51.504Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 5,
+      "timestamp": "2026-09-17T00:43:51.557Z",
+      "type": "model_request",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 6,
+      "timestamp": "2026-09-17T00:43:51.562Z",
+      "type": "model_response",
+      "stepId": 1,
+      "action": "view_post",
+      "purpose": "plan",
+      "latencyMs": 5,
+      "inputTokens": 20,
+      "outputTokens": 10
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 7,
+      "timestamp": "2026-09-17T00:43:51.568Z",
+      "type": "error",
+      "stepId": 1,
+      "message": "Model chose an ineligible or unknown target."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 8,
+      "timestamp": "2026-09-17T00:43:51.573Z",
+      "type": "cleanup",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "912b3697-af53-49df-a48b-97a652c095c5",
+      "sequence": 9,
+      "timestamp": "2026-09-17T00:43:51.574Z",
+      "type": "finished",
+      "stepId": 1,
+      "state": "failed"
+    }
+  ]
+}

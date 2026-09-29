@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+  "mode": "simulation",
+  "state": "stopped",
+  "phase": "finished",
+  "startedAt": "2026-09-17T05:00:10.126Z",
+  "heartbeatAt": "2026-09-17T05:00:10.706Z",
+  "completed": 1,
+  "total": 7,
+  "sequence": 14,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\63f6926a-5c54-4bb4-a3d2-cd2acb78940f\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "deterministic"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 14536,
+  "currentStep": 2,
+  "stopRequestedAt": "2026-09-17T05:00:10.652Z",
+  "finishReason": "user_stop",
+  "finishedAt": "2026-09-17T05:00:10.700Z",
+  "cleanup": "complete",
+  "stopLatencyMs": 48,
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 1,
+      "timestamp": "2026-09-17T05:00:10.176Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 2,
+      "timestamp": "2026-09-17T05:00:10.385Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 3,
+      "timestamp": "2026-09-17T05:00:10.387Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 4,
+      "timestamp": "2026-09-17T05:00:10.448Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 5,
+      "timestamp": "2026-09-17T05:00:10.512Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Choose automation: interest 10/10, not yet viewed.",
+      "message": "Choose automation: interest 10/10, not yet viewed."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 6,
+      "timestamp": "2026-09-17T05:00:10.518Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 7,
+      "timestamp": "2026-09-17T05:00:10.520Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 8,
+      "timestamp": "2026-09-17T05:00:10.521Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 9,
+      "timestamp": "2026-09-17T05:00:10.578Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 10,
+      "timestamp": "2026-09-17T05:00:10.634Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "automation matches the persona; engage with the viewed post.",
+      "message": "automation matches the persona; engage with the viewed post."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 11,
+      "timestamp": "2026-09-17T05:00:10.636Z",
+      "type": "before_submit",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 12,
+      "timestamp": "2026-09-17T05:00:10.665Z",
+      "type": "stop_requested",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 13,
+      "timestamp": "2026-09-17T05:00:10.704Z",
+      "type": "cleanup",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "63f6926a-5c54-4bb4-a3d2-cd2acb78940f",
+      "sequence": 14,
+      "timestamp": "2026-09-17T05:00:10.705Z",
+      "type": "finished",
+      "stepId": 2,
+      "state": "stopped"
+    }
+  ]
+}

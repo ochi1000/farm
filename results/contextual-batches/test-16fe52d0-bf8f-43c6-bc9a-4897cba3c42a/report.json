@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "id": "test-16fe52d0-bf8f-43c6-bc9a-4897cba3c42a",
+  "pid": 38284,
+  "state": "passed",
+  "startedAt": "2026-09-17T05:32:32.114Z",
+  "heartbeatAt": "2026-09-17T05:32:37.498Z",
+  "config": {
+    "smoke": false,
+    "fixtures": [
+      "garden",
+      "excluded",
+      "empty"
+    ],
+    "cycles": 1,
+    "sessionDurationMs": 20000,
+    "brain": {
+      "baseUrl": "http://127.0.0.1:57610",
+      "model": "fixture-local",
+      "timeoutMs": 2000
+    }
+  },
+  "sessions": [
+    {
+      "runId": "51165301-804c-45b8-a3bc-3014391707a2",
+      "fixtureId": "garden",
+      "kind": "cancellation",
+      "state": "stopped",
+      "finishReason": "user_stop",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\51165301-804c-45b8-a3bc-3014391707a2\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\51165301-804c-45b8-a3bc-3014391707a2\\report.md",
+      "completedCycles": 0,
+      "requestedCycles": 1,
+      "processed": 2,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 1,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 699,
+      "stopLatencyMs": 75,
+      "stopObserved": true,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "1ed37209-e4a6-46bc-bb37-16b8e699eb53",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\1ed37209-e4a6-46bc-bb37-16b8e699eb53\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\1ed37209-e4a6-46bc-bb37-16b8e699eb53\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "Could a disconnected probe leave the pump running between samples?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "Disconnect the probe with the pump unplugged and observe the control output."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "The manual switch provides a separate way to water while automatic readings are being checked."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 6,
+        "responses": 6,
+        "latencyMs": 968,
+        "inputTokens": 120,
+        "outputTokens": 60
+      },
+      "responseLatenciesMs": [
+        162,
+        153,
+        170,
+        156,
+        160,
+        167
+      ],
+      "elapsedMs": 2225,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "e75fb05f-5950-439e-bf0a-6c19f78a5ec5",
+      "fixtureId": "excluded",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e75fb05f-5950-439e-bf0a-6c19f78a5ec5\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\e75fb05f-5950-439e-bf0a-6c19f78a5ec5\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 7,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 1011,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    },
+    {
+      "runId": "f1426e17-0a32-4a6f-9a62-23f475f45139",
+      "fixtureId": "empty",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f1426e17-0a32-4a6f-9a62-23f475f45139\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\f1426e17-0a32-4a6f-9a62-23f475f45139\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [
+        {
+          "step": 1,
+          "action": "view_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 2,
+          "action": "like_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 3,
+          "action": "comment_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 4,
+          "action": "read_comments",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        },
+        {
+          "step": 7,
+          "action": "scroll_feed",
+          "reason": "No eligible target remains after interest, exclusion, and duplicate checks.",
+          "valid": true
+        }
+      ],
+      "validSkipCount": 7,
+      "writingCategories": [],
+      "verifiedDrafts": [],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 0,
+        "responses": 0,
+        "latencyMs": 0,
+        "inputTokens": 0,
+        "outputTokens": 0
+      },
+      "responseLatenciesMs": [],
+      "elapsedMs": 898,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 3,
+    "fullyCompletedSessions": 3,
+    "completedCycles": 3,
+    "requestedCycles": 3,
+    "validSkips": 14,
+    "invalidSkips": 0,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [
+      "comment_post",
+      "reply_to_comment",
+      "create_post"
+    ],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 6,
+      "medianMs": 160,
+      "p95Ms": 170,
+      "maxMs": 170
+    },
+    "modelMetrics": {
+      "requests": 6,
+      "responses": 6,
+      "latencyMs": 968,
+      "inputTokens": 120,
+      "outputTokens": 60
+    },
+    "liveSubmissions": 0
+  },
+  "finishedAt": "2026-09-17T05:32:37.498Z"
+}

@@ -1,0 +1,22 @@
+[Unit]
+Description=Gecko probe mTLS command broker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=allin-relay
+EnvironmentFile=/etc/all-in-relay.env
+Environment=RELAY_REGISTRY_PATH=/opt/all-in-relay/relay-devices.json
+Environment=GECKO_PORT=8053
+ExecStart=/usr/bin/node /opt/all-in-relay/gecko-broker.mjs
+WorkingDirectory=/opt/all-in-relay
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "b4d69cc8-9d58-4267-b7e1-03ea838cd12a",
+  "mode": "simulation",
+  "state": "interrupted",
+  "phase": "view_post",
+  "startedAt": "2026-09-15T22:26:38.491Z",
+  "heartbeatAt": "2026-09-15T22:26:38.749Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 3,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\b4d69cc8-9d58-4267-b7e1-03ea838cd12a\\report.md",
+  "pid": 4256,
+  "finishedAt": "2026-09-15T22:26:54.302Z",
+  "error": "Supervisor exited unexpectedly; no automatic replay.",
+  "cleanup": "unconfirmed"
+}

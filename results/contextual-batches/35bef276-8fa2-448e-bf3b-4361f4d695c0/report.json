@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "35bef276-8fa2-448e-bf3b-4361f4d695c0",
+  "pid": 19912,
+  "state": "passed",
+  "startedAt": "2026-09-17T05:32:39.152Z",
+  "heartbeatAt": "2026-09-17T05:33:01.695Z",
+  "config": {
+    "fixtureVersion": 1,
+    "brain": {
+      "model": "qwen3.5:9b",
+      "baseUrl": "http://127.0.0.1:11434",
+      "timeoutMs": 60000,
+      "think": false,
+      "promptVersion": "contextual-v12"
+    },
+    "smoke": true,
+    "fixtures": [
+      "garden"
+    ],
+    "cycles": 1,
+    "sessionDurationMs": 240000
+  },
+  "sessions": [
+    {
+      "runId": "a2b55b28-5311-422f-a149-2e982c0ebcdb",
+      "fixtureId": "garden",
+      "kind": "quality",
+      "state": "completed",
+      "finishReason": "sequence_complete",
+      "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a2b55b28-5311-422f-a149-2e982c0ebcdb\\report.json",
+      "markdownPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\a2b55b28-5311-422f-a149-2e982c0ebcdb\\report.md",
+      "completedCycles": 1,
+      "requestedCycles": 1,
+      "processed": 7,
+      "skips": [],
+      "validSkipCount": 0,
+      "writingCategories": [
+        "comment_post",
+        "reply_to_comment",
+        "create_post"
+      ],
+      "verifiedDrafts": [
+        {
+          "step": 3,
+          "action": "comment_post",
+          "text": "If we use the manual switch to simulate a probe, can we verify it registers as 'connected' before triggering the water cycle?"
+        },
+        {
+          "step": 5,
+          "action": "reply_to_comment",
+          "text": "You can simulate moisture by placing a damp cloth directly on the sensor element. This triggers the reading without engaging the pump or watering the plants."
+        },
+        {
+          "step": 6,
+          "action": "create_post",
+          "text": "A notable design tradeoff is that disconnected probes go undetected. Without active monitoring or a separate continuity check, the system cannot distinguish between dry soil and a broken wire."
+        }
+      ],
+      "rejectedDrafts": [],
+      "rejectedReviews": [],
+      "category": null,
+      "withinSessionDuplicatePairs": [],
+      "modelMetrics": {
+        "requests": 6,
+        "responses": 6,
+        "latencyMs": 21046,
+        "inputTokens": 3852,
+        "outputTokens": 551
+      },
+      "responseLatenciesMs": [
+        8719,
+        1949,
+        3004,
+        1995,
+        3516,
+        1863
+      ],
+      "elapsedMs": 22123,
+      "stopObserved": false,
+      "laterSubmissions": 0,
+      "cleanup": "complete",
+      "liveSubmissions": 0
+    }
+  ],
+  "liveSubmissions": 0,
+  "interpretation": "Synthetic execution with local model judgments. Rejected drafts stop their session. Independent scenarios continue once each, without retry or fallback. Cross-session similarity is measured, not prevented. Response latency excludes failed/cancelled requests.",
+  "aggregate": {
+    "qualitySessions": 1,
+    "fullyCompletedSessions": 1,
+    "completedCycles": 1,
+    "requestedCycles": 1,
+    "validSkips": 0,
+    "invalidSkips": 0,
+    "rejectedDrafts": 0,
+    "failureCategories": {},
+    "writingCategories": [
+      "comment_post",
+      "reply_to_comment",
+      "create_post"
+    ],
+    "withinSessionDuplicatePairs": 0,
+    "crossSessionDuplicatePairs": 0,
+    "responseLatency": {
+      "count": 6,
+      "medianMs": 1995,
+      "p95Ms": 8719,
+      "maxMs": 8719
+    },
+    "modelMetrics": {
+      "requests": 6,
+      "responses": 6,
+      "latencyMs": 21046,
+      "inputTokens": 3852,
+      "outputTokens": 551
+    },
+    "liveSubmissions": 0
+  },
+  "finishedAt": "2026-09-17T05:33:01.695Z"
+}

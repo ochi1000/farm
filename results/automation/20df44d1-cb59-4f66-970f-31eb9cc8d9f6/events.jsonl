@@ -1,0 +1,18 @@
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":1,"timestamp":"2026-09-17T00:24:32.920Z","type":"starting","stepId":1}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":2,"timestamp":"2026-09-17T00:24:33.133Z","type":"ready","stepId":1}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":3,"timestamp":"2026-09-17T00:24:33.135Z","type":"action_started","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":4,"timestamp":"2026-09-17T00:24:33.136Z","type":"persona_decision","stepId":1,"action":"view_post","message":"Choose automation: interest 10/10, not yet viewed.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":5,"timestamp":"2026-09-17T00:24:33.199Z","type":"preparing","stepId":1,"action":"view_post"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":6,"timestamp":"2026-09-17T00:24:33.967Z","type":"action_verified","stepId":2,"action":"view_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":7,"timestamp":"2026-09-17T00:24:33.968Z","type":"waiting","stepId":2}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":8,"timestamp":"2026-09-17T00:24:35.469Z","type":"action_started","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":9,"timestamp":"2026-09-17T00:24:35.471Z","type":"persona_decision","stepId":2,"action":"like_post","message":"automation matches the persona; engage with the viewed post.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":10,"timestamp":"2026-09-17T00:24:35.528Z","type":"preparing","stepId":2,"action":"like_post"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":11,"timestamp":"2026-09-17T00:24:36.280Z","type":"submission_started","stepId":2,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":12,"timestamp":"2026-09-17T00:24:36.286Z","type":"action_verified","stepId":3,"action":"like_post","certainty":"simulated"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":13,"timestamp":"2026-09-17T00:24:36.288Z","type":"waiting","stepId":3}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":14,"timestamp":"2026-09-17T00:24:37.791Z","type":"action_started","stepId":3,"action":"comment_post"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":15,"timestamp":"2026-09-17T00:24:37.792Z","type":"persona_decision","stepId":3,"action":"comment_post","message":"automation matches the persona; ask a practical question.","targetId":"post-1"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":16,"timestamp":"2026-09-17T00:24:37.853Z","type":"error","stepId":3,"message":"Injected action failure"}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":17,"timestamp":"2026-09-17T00:24:37.856Z","type":"cleanup","stepId":3}
+{"schemaVersion":1,"runId":"20df44d1-cb59-4f66-970f-31eb9cc8d9f6","sequence":18,"timestamp":"2026-09-17T00:24:37.858Z","type":"finished","stepId":3,"state":"failed"}

@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "55566eb0-5849-4b99-903c-55625a2c7540",
+  "mode": "simulation",
+  "state": "failed",
+  "phase": "finished",
+  "startedAt": "2026-09-17T04:26:11.307Z",
+  "heartbeatAt": "2026-09-17T04:26:11.890Z",
+  "completed": 2,
+  "total": 7,
+  "sequence": 22,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\55566eb0-5849-4b99-903c-55625a2c7540\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "ollama",
+    "model": "fixture-local",
+    "thinking": false,
+    "promptVersion": "contextual-v11"
+  },
+  "modelMetrics": {
+    "requests": 1,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 548,
+  "currentStep": 3,
+  "error": "Ollama returned HTTP 503.",
+  "errorCode": "MODEL_HTTP",
+  "finishedAt": "2026-09-17T04:26:11.887Z",
+  "cleanup": "complete",
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 1,
+      "timestamp": "2026-09-17T04:26:11.358Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 2,
+      "timestamp": "2026-09-17T04:26:11.569Z",
+      "type": "ready",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 3,
+      "timestamp": "2026-09-17T04:26:11.570Z",
+      "type": "action_started",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 4,
+      "timestamp": "2026-09-17T04:26:11.634Z",
+      "type": "preparing",
+      "stepId": 1,
+      "action": "view_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 5,
+      "timestamp": "2026-09-17T04:26:11.649Z",
+      "type": "target_selected",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 6,
+      "timestamp": "2026-09-17T04:26:11.650Z",
+      "type": "persona_decision",
+      "stepId": 1,
+      "action": "view_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 7,
+      "timestamp": "2026-09-17T04:26:11.656Z",
+      "type": "action_verified",
+      "stepId": 1,
+      "action": "view_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 8,
+      "timestamp": "2026-09-17T04:26:11.657Z",
+      "type": "waiting",
+      "stepId": 1
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 9,
+      "timestamp": "2026-09-17T04:26:11.658Z",
+      "type": "action_started",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 10,
+      "timestamp": "2026-09-17T04:26:11.717Z",
+      "type": "preparing",
+      "stepId": 2,
+      "action": "like_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 11,
+      "timestamp": "2026-09-17T04:26:11.743Z",
+      "type": "target_selected",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 12,
+      "timestamp": "2026-09-17T04:26:11.745Z",
+      "type": "persona_decision",
+      "stepId": 2,
+      "action": "like_post",
+      "targetId": "post-1",
+      "text": "",
+      "evidence": "A simple sensor automates watering a small garden. It samples soil moisture every ten minutes and runs the pump for twenty seconds below a dry threshold. A manu",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action.",
+      "message": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 13,
+      "timestamp": "2026-09-17T04:26:11.747Z",
+      "type": "submission_started",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 14,
+      "timestamp": "2026-09-17T04:26:11.753Z",
+      "type": "action_verified",
+      "stepId": 2,
+      "action": "like_post",
+      "certainty": "simulated"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 15,
+      "timestamp": "2026-09-17T04:26:11.755Z",
+      "type": "waiting",
+      "stepId": 2
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 16,
+      "timestamp": "2026-09-17T04:26:11.756Z",
+      "type": "action_started",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 17,
+      "timestamp": "2026-09-17T04:26:11.818Z",
+      "type": "preparing",
+      "stepId": 3,
+      "action": "comment_post"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 18,
+      "timestamp": "2026-09-17T04:26:11.838Z",
+      "type": "target_selected",
+      "stepId": 3,
+      "action": "comment_post",
+      "targetId": "post-1",
+      "reason": "Persona rules selected post-1: eligible topic, interest 10/10, no duplicate action."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 19,
+      "timestamp": "2026-09-17T04:26:11.875Z",
+      "type": "model_request",
+      "stepId": 3,
+      "action": "comment_post",
+      "purpose": "plan"
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 20,
+      "timestamp": "2026-09-17T04:26:11.886Z",
+      "type": "error",
+      "stepId": 3,
+      "message": "Ollama returned HTTP 503."
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 21,
+      "timestamp": "2026-09-17T04:26:11.889Z",
+      "type": "cleanup",
+      "stepId": 3
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "55566eb0-5849-4b99-903c-55625a2c7540",
+      "sequence": 22,
+      "timestamp": "2026-09-17T04:26:11.890Z",
+      "type": "finished",
+      "stepId": 3,
+      "state": "failed"
+    }
+  ]
+}

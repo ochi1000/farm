@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "9bfbedf5-171c-40e1-aeee-6f68490be71d",
+  "mode": "simulation",
+  "state": "stopped",
+  "phase": "finished",
+  "startedAt": "2026-09-17T00:41:41.777Z",
+  "heartbeatAt": "2026-09-17T00:41:41.836Z",
+  "completed": 0,
+  "total": 7,
+  "sequence": 4,
+  "liveSubmissions": 0,
+  "reportPath": "C:\\Users\\LSUSStudent\\Documents\\ochis_projects\\O Corp\\software\\auto bots\\test phone bot\\results\\automation\\9bfbedf5-171c-40e1-aeee-6f68490be71d\\report.md",
+  "persona": {
+    "id": "practical-tech",
+    "version": 1,
+    "name": "Alex - Practical technology enthusiast"
+  },
+  "skipped": 0,
+  "brain": {
+    "mode": "deterministic"
+  },
+  "modelMetrics": {
+    "requests": 0,
+    "responses": 0,
+    "latencyMs": 0,
+    "inputTokens": 0,
+    "outputTokens": 0
+  },
+  "pid": 32292,
+  "stopRequestedAt": "2026-09-17T00:41:41.790Z",
+  "finishedAt": "2026-09-17T00:41:41.832Z",
+  "cleanup": "complete",
+  "stopLatencyMs": 42,
+  "trace": [
+    {
+      "schemaVersion": 1,
+      "runId": "9bfbedf5-171c-40e1-aeee-6f68490be71d",
+      "sequence": 1,
+      "timestamp": "2026-09-17T00:41:41.828Z",
+      "type": "starting",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "9bfbedf5-171c-40e1-aeee-6f68490be71d",
+      "sequence": 2,
+      "timestamp": "2026-09-17T00:41:41.831Z",
+      "type": "stop_requested",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "9bfbedf5-171c-40e1-aeee-6f68490be71d",
+      "sequence": 3,
+      "timestamp": "2026-09-17T00:41:41.834Z",
+      "type": "cleanup",
+      "stepId": 0
+    },
+    {
+      "schemaVersion": 1,
+      "runId": "9bfbedf5-171c-40e1-aeee-6f68490be71d",
+      "sequence": 4,
+      "timestamp": "2026-09-17T00:41:41.835Z",
+      "type": "finished",
+      "stepId": 0,
+      "state": "stopped"
+    }
+  ]
+}
